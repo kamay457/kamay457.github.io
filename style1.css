@@ -1,0 +1,16 @@
+.dougnut{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+.dougnut img{
+  width: 100%;
+  transition-duration: 0.5s;
+}
+.dougnut:hover img{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
