@@ -1,0 +1,29 @@
+body{
+	background: linear-gradient(
+		to right,
+		#ff006f 0%,
+		#ffffff 50%,
+		#f5a500 100%);
+	background-size: 1600px 900px;
+}
+
+h1{
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
+	padding-top: 55px; 
+	font-size: 70px;
+}
+
+.choise2{
+	font-family: 'Fredoka One', cursive;
+	text-align: right;
+	font-size: 50px;
+}
+
+.choise{
+	font-family: 'Fredoka One', cursive;
+	text-align: left;
+	float: left;
+	font-size: 50px;
+
+}

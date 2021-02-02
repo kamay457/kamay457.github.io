@@ -1,0 +1,44 @@
+body{
+	background-color: #8aa3b9;
+
+	background-image: url("580b585b2edbce24c47b271a.png");
+	background-repeat: no-repeat;
+	background-size: 1600px 900px;
+
+}
+
+h1{
+	text-align: center;
+	padding-top: 55px; 
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 50px;
+}
+
+.ig1{
+	position: absolute;
+	top: 300px;
+	left: 1200px;
+}
+
+.ig2{
+	position: absolute;
+	top: 150px;
+	left: 30px;
+}
+.ig3{
+	position: absolute;
+	top: 70px;
+	left: 500px;
+}
+
+.ig4{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+}
+
+.ig5{
+	position: absolute;
+	top: 500px;
+	left: 800px;
+}

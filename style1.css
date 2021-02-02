@@ -1,16 +1,36 @@
+body{
+  background-color: #eaf6fd;
+}
 .dougnut{
   display: inline-block;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   margin: 0 auto;
   overflow: hidden;
   cursor: pointer;
 }
 .dougnut img{
-  width: 100%;
+  width: 120%;
   transition-duration: 0.5s;
 }
 .dougnut:hover img{
   transform: scale(1.2);
   transition-duration: 0.5s;
+}
+
+.conv{
+  font-family: copperplate;
+  font-size: 30px;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-left: 30px;
+  font-style: normal;
+  text-align: left;
+  display: block;
+  width: 631px;
+  height: 300px;
+  background-color: #ccc;
+  border-radius: 50%;
+  box-shadow: 40px 30px 0 -15px #ccc, -60px 40px 0 -30px #ccc, -100px 0px 0 -50px #ccc, 100px 0px 0 -50px #ccc;
+
 }
