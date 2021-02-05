@@ -1,3 +1,79 @@
 html{
-	background: pink;
+	background: #70ff94;
+}
+
+h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	color: #10ad13;
+}
+
+h2{
+	padding-top: 20px;
+	padding-left: 50px;
+	color: #10ad13;
+}
+
+
+label{
+	font-size: 35px;
+	color: #42ad45;
+
+}
+
+a:-webkit-any-link {
+    color: #64dcfa;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+
+a:hover {
+	color: #d2fcd6;
+}
+
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+    padding-left: 50px;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+    padding: 10px;
+    font-weight: bold;
+    cursor :pointer;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: #58edc8;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+
+}
+
+.hidden_show{
+	font-size: 30px;
+	color: #7dff97;
 }
