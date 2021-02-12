@@ -1,0 +1,65 @@
+/*@font-face{
+	font-family: 'Modak'; 
+    src: url('Modak-webfont.woff') format('woff');
+}
+
+@font-face{
+	font-family: "baloo";
+	src: url("/fonts/Baloo-Regular-webfont.woff") format("woff");
+}*/
+
+body{
+	padding: 12px;
+	margin-left: 230px; 
+	margin-right: 230px;
+	background: radial-gradient(circle, #defaff, #ffe0e8)
+
+}
+
+
+
+.main1{
+	float: right;
+}
+
+#side{
+
+  width: 30%;
+  padding: 16px;
+  margin: 15px;
+  float: left;
+  background-color: #f5f184;
+}
+	
+.tt{
+	font-family: 'Modak', cursive;
+	font-size: 80px;
+	text-align: center;
+	color: #ff6e93;
+}
+
+
+h1{
+	font-family: 'Modak', cursive;
+	color: #ff4a78;
+	font-size: 40px;
+
+}
+
+h2{
+	font-family: 'Overpass', sans-serif;
+	color: #f7bad1;
+}
+
+
+
+p{
+	font-family: 'Overpass', sans-serif;
+	text-indent: 1em;
+	text-align: justify;
+}
+
+ul{
+	font-family: 'Overpass', sans-serif;
+
+}

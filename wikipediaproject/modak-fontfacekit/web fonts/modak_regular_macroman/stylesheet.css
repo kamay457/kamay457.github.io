@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'modakregular';
+    src: url('Modak-webfont.eot');
+    src: url('Modak-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Modak-webfont.woff2') format('woff2'),
+         url('Modak-webfont.woff') format('woff'),
+         url('Modak-webfont.ttf') format('truetype'),
+         url('Modak-webfont.svg#modakregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
