@@ -1,0 +1,61 @@
+@font-face{
+	font-family: Avara-Bold;
+	src: url("./font/Avara-Bold.woff") format("woff");
+}
+
+
+@font-face{
+font-family: Avara-Black;
+	src: url("./font/Avara-Black.woff") format("woff");
+}
+
+
+html{
+	padding: 16px;
+}
+
+p{
+	font-family: Avara-Bold;
+	font-size: 16px;
+}
+
+a{
+	font-family: Avara-Black;
+	font-size: 16px;
+  animation: none;
+}
+
+
+
+a:hover, a:hover span {
+  animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+   animation-iteration-count: infinite; 
+}
+
+/*span:hover {
+	 animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+   animation-iteration-count: infinite; 
+}*/
+
+/*.click:hover{
+	animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+   animation-iteration-count: infinite; 
+}
+*/
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}

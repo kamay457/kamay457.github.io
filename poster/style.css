@@ -1,0 +1,320 @@
+
+   /* @media screen and (min-width:  700px) {
+      
+    }
+*/
+@font-face{
+	font-family: "CALLIGRAFFITI";
+	src: url("./font/Calligraffiti-webfont.woff") format("woff");
+}
+
+
+@keyframes zoomin {
+  0% {
+    transform: scale(0.05);
+    opacity: 0;
+  }
+  
+  25% {
+    transform: scale(0.3);
+  }
+  
+  50% {
+    transform: scale(0.5);
+  }
+  
+  75% {
+    transform: scale(0.7);
+  }
+  
+  
+}
+
+@keyframes fadeOutUp {
+   0% {
+      opacity: 100;
+      
+   }
+   100% {
+      opacity: 0;
+      
+   }
+} 
+
+body{
+	background: #87CEFA;
+}
+
+
+
+
+
+
+ .circle-1 {
+      width: 600px;
+      height: 600px;
+      background: red;
+      border-radius: 50%;
+      z-index: 20;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      animation: fadeOutUp 5s linear;
+       animation-delay: 3s;
+       animation-fill-mode: forwards;
+      
+      /*position: relative;
+      top: -100px;
+      left: 400px;*/
+
+
+    }
+
+.circle-2 {
+      width: 600px;
+      height: 600px;
+      background: blue;
+      border-radius: 50%;
+      /*position: relative;*/
+       z-index: 30;
+      /*top: -100px;*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      animation: fadeOutUp 5s linear;
+       animation-delay: 3s;
+       animation-fill-mode: forwards;
+      
+
+    }
+
+.circle-3 {
+      width: 600px;
+      height: 600px;
+      background: green;
+      border-radius: 50%;
+      position: absolute;
+       z-index: 40;
+       top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      animation: fadeOutUp 5s linear;
+      animation-delay: 3s;
+      animation-fill-mode: forwards;
+      
+    }
+
+ .circle-4 {
+      width: 600px;
+      height: 600px;
+      background: yellow;
+      border-radius: 50%;
+      position: absolute;
+       z-index: 50;
+       top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      animation: fadeOutUp 5s linear;
+      animation-fill-mode: forwards;
+      
+    } 
+
+
+.intro{
+	font-family: 'Work Sans', sans-serif;
+ 	font-size: 30px;
+ 	text-align: center;
+ 	margin: auto;
+
+}
+
+.flexbox {
+  display: flex;
+  height: 100%;  
+}
+
+
+.intro2{
+	font-family: 'Work Sans', sans-serif;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	margin: auto;
+ 	color: #fce744;
+}
+
+
+.intro3{
+	font-family: 'Work Sans', sans-serif;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	margin: auto;
+ 	color: #fce744;
+}
+
+.flexbox2{
+  display: flex;
+  height: 100%;  
+}
+
+.flexbox3{
+  display: flex;
+  height: 100%;  
+}
+
+.grid-item1{
+ height: 100px;
+ background-color: #40a7de;
+
+
+}
+
+.grid-item2{
+ height: 100px;
+ background-color: #40a7de;
+ font-family: 'Work Sans', sans-serif;
+text-align: center;
+
+}
+
+.grid-item3{
+ height: 100px;
+ background-color: #40a7de;
+ font-family: 'Work Sans', sans-serif;
+text-align: center;
+
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-gap: 10px;
+  margin-bottom: 30px;
+  padding: 16px;
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+	padding: 16px;
+}
+
+.grid-3{
+	display: grid;
+	grid-column: 1;
+	grid-row: auto;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+	padding: 16px;
+}
+
+
+.container {
+
+  z-index: 10;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.title {
+  font-size: 180px;
+  text-align: center;
+  margin: auto; /* An auto margin in a flexbox container will position the element automatically in the center, in both the X and Y axis. */
+  animation: zoomin 8s linear;
+  animation-delay: 7s;
+  font-family: CALLIGRAFFITI;
+  animation-fill-mode: backwards;
+}
+
+.cloud1{
+  animation: cloud 5.5s ease-in infinite alternate both;
+  
+  z-index: 1;
+  position: absolute;
+  left: 80px;
+  top: 300px;
+ 
+}
+
+
+.cloud2{
+  animation: cloud2 5.5s ease-in infinite alternate both;
+  z-index: 2;
+  position: absolute;
+  left: 1050px;
+  top: 150px;
+ 
+}
+
+@keyframes cloud{
+  
+	0%{
+	transform:translateX(-64px);
+}
+
+	100%{
+	transform:translateX(64px);	
+	}
+
+	0%{
+	transform: translateX(-64px);
+	}
+}
+
+@keyframes cloud2{
+    100%{
+  transform:translateX(-64px);
+}
+
+  0%{
+  transform:translateX(64px); 
+
+
+}
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+body{
+	background: #2e336e;
+	color: white;
+
+}
+
+.title{
+	font-size: 100px;
+}
+
+
+.intro{
+	font-size: 25px;
+}
+
+.intro2, .intro3{
+	font-size: 25px;
+	color: #fcb544;
+}
+
+.grid-item1, .grid-item2, .grid-item3{
+
+	background-color: #769ddb;
+}
+
+.circle-1, .circle-2, .circle-3, .circle-4{
+ 	width: 400px;
+     height: 400px;
+
+}
+
+.cloud1, .cloud2{
+	display: none;
+}
+
+}
+
+
