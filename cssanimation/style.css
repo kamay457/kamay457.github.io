@@ -1,0 +1,131 @@
+body{
+	background-color: #f0ec78;
+}
+
+
+#smily{
+	height: 600px;
+	/*position: relative;*/
+  	animation: uep 4s infinite ease-in;
+}
+
+
+#smile{
+	height: 600px;
+	position: relative;
+	top: -30vh;
+	left: 80vh;
+	transform: rotate(45deg);
+  	animation: magaru 4s infinite ease-in;
+
+
+}
+/*#simly::after {
+ 
+  animation: down 2.5s infinite ease-out;
+}*/
+
+@keyframes uep {
+
+	50%{
+   transform: translate3D(500px, -500px, 0);
+  }
+}
+
+
+@keyframes magaru {
+
+	50%{
+   transform: translate3D(-300px, 300px, 0);
+  }
+}
+
+
+path.cls-1{
+
+	fill: #89fc4f;
+	stroke: #89fc4f;
+}
+
+
+path.mouth {
+  /*  fill: #fff;*/
+    stroke: #5bb574;
+    fill: #5bb574;
+    stroke-miterlimit: 10;
+
+}
+
+
+circle.eyes1{
+	fill: #9acf4f;
+	stroke: #9acf4f;
+	animation: shrink 1s infinite linear;
+
+}
+
+circle.eyes2{
+	fill: #b1cf4f;
+	stroke: #b1cf4f;
+}
+
+
+@keyframes shrink{
+
+	0%{
+		transform: scale(1);
+	}
+
+	100%{
+		transform: scale(0.5);
+	}
+
+}
+
+
+
+#smily:hover{
+	animation-play-state: paused;
+}
+
+#smile:hover{
+	animation-play-state: paused;
+}
+
+path.cls-2{
+
+	fill: #9f7ee9;
+	stroke: #9f7ee9;
+}
+
+
+path.mouth2 {
+
+    fill: #7e93e9;
+    stroke: #7e93e9;
+   
+}
+
+
+circle.eyes12{
+	fill: #7ec7e9;
+	stroke: #7ec7e9;
+}
+
+circle.eyes22{
+	fill: #6faae8;
+	stroke: #6faae8;
+	animation: shrinkDown 1s infinite linear;
+}
+
+@keyframes shrinkDown{
+
+	0%{
+		transform: scale(0.5);
+	}
+
+	100%{
+		transform: scale(1);
+	}
+
+}
