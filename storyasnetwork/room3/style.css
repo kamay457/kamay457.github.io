@@ -1,0 +1,50 @@
+body{
+  background: #000000;
+  padding: 16px;
+
+}
+
+.showup{
+  color: #FFFFFF;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+
+}
+
+.fade-in1{
+  animation: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 0.8s;
+  animation-fill-mode: backwards;
+  
+}
+
+
+.fade-in2{
+  animation: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 1.8s;
+  animation-fill-mode: backwards;
+  
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+.blue{
+  color: #000000;
+  transition: all 0.5s ease 0s;
+}
+
+.blue:hover {
+  color: #6E7FD9;
+}

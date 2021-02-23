@@ -1,0 +1,45 @@
+body{
+	background: #000000;
+	padding: 16px;
+}
+
+p{
+	color: #FFFFFF;
+}
+
+.text1{
+	animation :leftToright 15s linear;
+	
+}
+
+@keyframes leftToright {
+
+	0%{
+		transform: translateX(-100%);
+
+
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+
+
+
+.text2{
+	animation: diagnal 15s linear;
+}
+
+@keyframes diagnal{
+	0%{
+		transform: translate(0);
+	}
+
+	100%{
+		transform: translate(50px, 50px);
+
+	}
+
+	}
+
+}

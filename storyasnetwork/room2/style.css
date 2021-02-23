@@ -1,0 +1,372 @@
+.rectangle {
+  float: left;
+  width: auto;
+  height: 20%;
+  padding-top: 5%;
+  position: relative;
+  background: #FFFFFF;
+}
+
+
+body{
+  background: #000000;
+}
+
+
+
+@keyframes fall-17 {
+  0% {
+    top: -1000px;
+  }
+  16% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r17 {
+  animation-name: fall-17;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  /*animation-iteration-count: infinite;*/
+   animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-16 {
+  0% {
+    top: -1000px;
+  }
+  20% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r16 {
+  animation-name: fall-16;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  /*animation-iteration-count: infinite;*/
+   animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-15 {
+  0% {
+    top: -1000px;
+  }
+  24% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r15 {
+  animation-name: fall-15;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+ /* animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-14 {
+  0% {
+    top: -1000px;
+  }
+  28% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r14 {
+  animation-name: fall-14;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+ /* animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-13 {
+  0% {
+    top: -1000px;
+  }
+  32% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r13 {
+  animation-name: fall-13;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+/*  animation-iteration-count: infinite;*/
+ animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-12 {
+  0% {
+    top: -1000px;
+  }
+  36% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r12 {
+  animation-name: fall-12;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+ /* animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-11 {
+  0% {
+    top: -1000px;
+  }
+  40% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r11 {
+  animation-name: fall-11;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+/*  animation-iteration-count: infinite;*/
+ animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-10 {
+  0% {
+    top: -1000px;
+  }
+  44% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r10 {
+  animation-name: fall-10;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  /*animation-iteration-count: infinite;*/
+   animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-9 {
+  0% {
+    top: -1000px;
+  }
+  48% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r9 {
+  animation-name: fall-9;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  /*animation-iteration-count: infinite;*/
+   animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-8 {
+  0% {
+    top: -1000px;
+  }
+  52% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r8 {
+  animation-name: fall-8;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+ /* animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-7 {
+  0% {
+    top: -1000px;
+  }
+  56% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r7 {
+  animation-name: fall-7;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+/*  animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-6 {
+  0% {
+    top: -1000px;
+  }
+  60% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r6 {
+  animation-name: fall-6;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+ /* animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-5 {
+  0% {
+    top: -1000px;
+  }
+  64% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r5 {
+  animation-name: fall-5;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+ /* animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-4 {
+  0% {
+    top: -1000px;
+  }
+  68% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r4 {
+  animation-name: fall-4;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+/*  animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-3 {
+  0% {
+    top: -1000px;
+  }
+  72% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r3 {
+  animation-name: fall-3;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+ /* animation-iteration-count: infinite;*/
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-2 {
+  0% {
+    top: -1000px;
+  }
+  76% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r2 {
+  animation-name: fall-2;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fall-1 {
+  0% {
+    top: -1000px;
+  }
+  80% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.r1 {
+  animation-name: fall-1;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+
+ 
