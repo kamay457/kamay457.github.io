@@ -1,0 +1,194 @@
+@font-face{
+  font-family: "almendra-regular";
+  src: url("./font/almendra-regular-webfont.woff") format("woff");
+  src: url("./font/almendra-regular-webfont.woff2") format("woff2");
+}
+
+body{
+	background-color: #000000;
+}
+
+
+p{
+	font-family: "almendra-regular";
+	color: #FFFFFF;
+	font-size: 23px;
+	text-align: center;
+	margin: 0;
+}
+
+.place{
+	position: relative;
+}
+/*path.cls-1{
+
+	position: absolute;
+	top: 30%;
+	left: 0%;
+
+}*/
+
+/*path.cls-2{
+	position: absolute;
+	top: 30%;
+	left: 0%;
+}*/
+#hx{
+	position: absolute;
+	top: 30%;
+	left: 0%;
+}
+
+.pr1{
+	position: absolute;
+	top: 55%;
+	left: 5%;
+	text-align: center;
+}
+
+
+#hxo{
+	position: absolute;
+	top: 50%;
+	left: 0%;
+}
+
+.pr2{
+	position: absolute;
+	top: 75%;
+	left: 5%;
+	text-align: center;
+}
+
+#hxo1{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo2{
+	position: absolute;
+	top: 75%;
+	left: 0%;
+
+}
+
+#hxo3{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo4{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo5{
+	position: absolute;
+	top: 95%;
+	left: 0%;
+
+}
+
+#hxo6{
+	position: absolute;
+	top: 75%;
+	left: 0%;
+
+}
+
+#hxo7{
+	position: absolute;
+	top: 85%;
+	left: 0%;
+
+}
+
+#hxo8{
+	position: absolute;
+	top: 95%;
+	left: 0%;
+
+}
+
+#hxo9{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo10{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo11{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo12{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo13{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo14{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo15{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo16{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo17{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo18{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}
+
+#hxo19{
+	position: absolute;
+	top: 55%;
+	left: 0%;
+
+}

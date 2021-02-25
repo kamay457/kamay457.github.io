@@ -1,18 +1,60 @@
-.rectangle {
-  float: left;
-  width: auto;
-  height: 20%;
-  padding-top: 5%;
-  position: relative;
-  background: #FFFFFF;
+@font-face{
+  font-family: "almendra-regular";
+  src: url("./font/almendra-regular-webfont.woff") format("woff");
+  src: url("./font/almendra-regular-webfont.woff2") format("woff2");
 }
 
+.rectangle {
+  float: left;
+  min-width: 1440px;
+  height: 20%;
+  padding-top: 5%;
+  margin: 0;
+  position: relative;
+  align-items: center;
+  display: inline-block;
+  background: #FFFFFF;
+  font-family: almendra-regular;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+a{
+  font-family: "almendra-regular";
+  color: #6E7FD9;
+}
+
+a:visited{
+  color: #6E7FD9;
+}
 
 body{
   background: #000000;
+  padding: 16px;
 }
 
 
+@keyframes fall-17 {
+  0% {
+    top: -1000px;
+  }
+  12% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+
+.r18 {
+  animation-name: fall-18;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  /*animation-iteration-count: infinite;*/
+   animation-fill-mode: forwards;
+}
 
 @keyframes fall-17 {
   0% {
@@ -25,6 +67,10 @@ body{
     top: 0px;
   }
 }
+
+
+
+
 
 .r17 {
   animation-name: fall-17;

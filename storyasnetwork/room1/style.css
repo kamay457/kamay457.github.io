@@ -1,5 +1,13 @@
+@font-face{
+  font-family: "almendra-regular";
+  src: url("./font/almendra-regular-webfont.woff") format("woff");
+  src: url("./font/almendra-regular-webfont.woff2") format("woff2");
+}
+
+
+
 body{
-	background: pink;
+	background: black;
 	padding: 16px;
 }
 
@@ -25,7 +33,7 @@ body{
 }
 
 .box2{
-	height: 5vh;
+	height: 9vh;
 }
 
 .box3{
@@ -33,14 +41,106 @@ body{
 }
 
 .box4{
-	height: 8vh;
+	height: 18vh;
 }
 
 .box5{
-	height: 16vh;
+	height: 25vh;
 }
 
 
 .box6{
 	height: 10vh;
+}
+
+.text1{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	  animation-duration: 1s;
+	  animation-fill-mode: backwards;
+}
+
+.text2{
+	font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 animation-duration: 1s;
+	 animation-delay: 2s;
+	 animation-fill-mode: backwards;
+
+}
+
+.text3{
+	font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 animation-duration: 1s;
+	 animation-delay: 4s;
+	 animation-fill-mode: backwards;
+
+}
+
+.text4{
+	font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 animation-duration: 1s;
+	 animation-delay: 6s;
+	 animation-fill-mode: backwards;
+
+}
+
+.text5{
+	font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 animation-duration: 1s;
+	 animation-delay: 8s;
+	 animation-fill-mode: backwards;
+
+}
+
+.text6{
+	font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 animation-duration: 1s;
+	 animation-delay: 10s;
+	 animation-fill-mode: backwards;
+
+}
+
+
+.text7{
+	font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 text-align: center;
+	 animation: fadeIn;
+	 animation-duration: 1s;
+	 animation-delay: 12s;
+	 animation-fill-mode: backwards;
+
+
+}
+
+
+
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }

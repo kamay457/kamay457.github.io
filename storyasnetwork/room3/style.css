@@ -1,16 +1,33 @@
+@font-face{
+  font-family: "almendra-regular";
+  src: url("./font/almendra-regular-webfont.woff") format("woff");
+  src: url("./font/almendra-regular-webfont.woff2") format("woff2");
+}
+
 body{
   background: #000000;
   padding: 16px;
 
 }
 
+.allin{
+  position: relative;
+}
+
+
 .showup{
   color: #FFFFFF;
   text-align: center;
+  position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: almendra-regular;
+  font-size: 400px;
 
 }
+
+
 
 .fade-in1{
   animation: fadeIn;
@@ -42,7 +59,9 @@ body{
 
 .blue{
   color: #000000;
-  transition: all 0.5s ease 0s;
+  transition: all 0s ease 0s;
+  font-family: almendra-regular;
+  font-size: 36px;
 }
 
 .blue:hover {

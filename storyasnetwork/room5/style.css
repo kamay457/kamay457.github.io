@@ -1,13 +1,19 @@
+@font-face{
+  font-family: "almendra-regular";
+  src: url("./font/almendra-regular-webfont.woff") format("woff");
+  src: url("./font/almendra-regular-webfont.woff2") format("woff2");
+}
+
 body{
 	background: #000000;
 	padding: 16px;
 }
 
-p{
-	color: #FFFFFF;
-}
+
 
 .text1{
+	color: #FFFFFF;
+	font-family: "almendra-regular";
 	animation :leftToright 15s linear;
 	
 }
@@ -27,10 +33,12 @@ p{
 
 
 .text2{
-	animation: diagnal 15s linear;
+	color: #FFFFFF;
+	font-family: "almendra-regular";
+	animation: uep 15s linear;
 }
 
-@keyframes diagnal{
+/*@keyframes diagnal{
 	0%{
 		transform: translate(0);
 	}
@@ -42,4 +50,11 @@ p{
 
 	}
 
+}*/
+
+@keyframes uep {
+
+	50%{
+   transform: translate3D(500px, -500px, 0);
+  }
 }

@@ -1,27 +1,101 @@
+@font-face{
+  font-family: "almendra-regular";
+  src: url("./font/almendra-regular-webfont.woff") format("woff");
+  src: url("./font/almendra-regular-webfont.woff2") format("woff2");
+}
 
+body{
+	padding: 16px
+}
 
-p:hover {
-  animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-   animation-iteration-count: infinite; 
+a{
+	color: #000000;
+}
+
+a:visited{
+	color: #6E7FD9;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 180px;
+
 }
 
 
-
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-  
-  30%, 50%, 70% {
-    transform: translate3d(-2px, 0, 0);
-  }
-  40%, 60% {
-    transform: translate3d(2px, 0, 0);
-}
+.box-a{
+	 font-family: "almendra-regular";
+	 font-size: 300px;
+	 margin: 0;
+	 text-align: center;
+	 width: 180px;
+	 color: #FFFFFF;
 }
 
+.box-b{
+	 font-family: "almendra-regular";
+	 font-size: 300px;
+	 margin: 0;
+	 text-align: center;
+	 width: 180px;
+
+}
+
+.box1, .box3, .box5, .box7, .box9, .box11, .box13, .box15, .box17{
+	background-color: #000000;
+}
+
+.box1:hover{
+	font-size: 400px;
+}
+
+.box2:hover{
+	font-size: 400px;
+} 
+.box3:hover{
+	font-size: 400px;
+} 
+.box4:hover{
+	font-size: 400px;
+} 
+ .box5:hover{
+	font-size: 400px;
+} 
+ .box6:hover{
+	font-size: 400px;
+}  
+.box7:hover{
+	font-size: 400px;
+} 
+.box8:hover{
+	font-size: 400px;
+} 
+ .box9:hover{
+	font-size: 400px;
+} 
+ .box10:hover{
+	font-size: 400px;
+} 
+.box11:hover{
+	font-size: 400px;
+} 
+.box12:hover{
+	font-size: 400px;
+} 
+.box13:hover{
+	font-size: 400px;
+} 
+ .box14:hover{
+	font-size: 400px;
+} 
+ .box15:hover{
+	font-size: 400px;
+} 
+ .box16:hover{
+	font-size: 400px;
+} 
+ .box17:hover{
+	font-size: 400px;
+} 

@@ -1,0 +1,20 @@
+@font-face{
+  font-family: "almendra-regular";
+  src: url("./font/almendra-regular-webfont.woff") format("woff");
+  src: url("./font/almendra-regular-webfont.woff2") format("woff2");
+}
+
+
+body{
+	background-color: #000000;
+}
+
+p{
+	font-family: "almendra-regular";
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+a{
+	color: #FFFFFF;
+}
