@@ -23,7 +23,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: almendra-regular;
-  font-size: 400px;
+  font-size: 300px;
 
 }
 
@@ -46,6 +46,12 @@ body{
   
 }
 
+.fade-in3{
+  animation: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 2.0s;
+  animation-fill-mode: backwards;
+}
 @keyframes fadeIn {
   0% {
     opacity:0;
