@@ -9,52 +9,126 @@ body{
 	padding: 16px;
 }
 
+a{
+	color: #FFFFFF;
+}
 
+a:visited{
+	color: #6E7FD9;
+}
 
 .text1{
+	margin: 20px auto 80px;
+	font-size: 24px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.text1 p{
 	color: #FFFFFF;
 	font-family: "almendra-regular";
-	animation :leftToright 15s linear;
-	
+	animation :leftToright 60s linear infinite;	
+	animation-direction: alternate;	
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;	
+	transform: translateX(-100%);
 }
+
 
 @keyframes leftToright {
 
-	0%{
-		transform: translateX(-100%);
-
-
-	}
-
+	
 	100% {
-		transform: translateX(0);
+		transform: translateX(100%);
 	}
+}
 
 
+.text2, .text3, .text4, .text5, .text6{
+	margin: 80px auto 80px;
+	font-size: 24px;
+	text-align: center;
+	overflow: hidden;
+}
 
-.text2{
+
+.p2{
 	color: #FFFFFF;
 	font-family: "almendra-regular";
-	animation: uep 15s linear;
+	text-align: center;
+	animation : leftToright 60s linear infinite;
+	animation-direction: alternate-reverse;	
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;	
+	transform: translateX(-100%);
 }
 
-/*@keyframes diagnal{
-	0%{
-		transform: translate(0);
+.p3{
+	color: #FFFFFF;
+	font-family: "almendra-regular";
+	text-align: center;
+	animation : leftToright 70s linear infinite;
+	animation-direction: alternate;	
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;	
+	transform: translateX(-100%)
+}
+
+.p4{
+	color: #FFFFFF;
+	font-family: "almendra-regular";
+	text-align: center;
+	animation : leftToright 60s linear infinite;
+	animation-direction: alternate-reverse;	
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;	
+	transform: translateX(-100%)
+}
+
+.p5{
+	color: #FFFFFF;
+	font-family: "almendra-regular";
+	text-align: center;
+	animation : leftToright 60s linear infinite;	
+	animation-direction: alternate;	
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;	
+	transform: translateX(-100%)
+}
+
+
+.p6{
+
+	color: #FFFFFF;
+	font-family: "almendra-regular";
+	animation : leftToright 60s linear infinite;
+	animation-direction: alternate-reverse;	
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;	
+	transform: translateX(-100%);
+}
+
+/*@keyframes rightToleft{
+
+	
+	100% {
+		transform: translateX(-100%);
 	}
+*/
 
-	100%{
-		transform: translate(50px, 50px);
 
-	}
-
-	}
-
-}*/
-
-@keyframes uep {
-
+/*@keyframes uep {
+  	O%{ 
+  	transform: translate3d(800px,-500px,0);
+  }
 	50%{
-   transform: translate3D(500px, -500px, 0);
+   transform: translate3d(500px, -500px, 0);
   }
 }
+*/

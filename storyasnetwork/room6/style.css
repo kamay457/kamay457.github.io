@@ -17,8 +17,8 @@ p{
 	margin: 0;
 }
 
-.place{
-	position: relative;
+.container{
+	display: flex;
 }
 /*path.cls-1{
 
