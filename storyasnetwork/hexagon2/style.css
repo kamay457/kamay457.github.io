@@ -18,7 +18,7 @@ p{
 
 .place{
 	position: absolute;
-	top: 25vw;
+	top: 23vw;
 	
 }
 
@@ -56,13 +56,3 @@ a:hover{
 a:visited{
 	color: #6E7FD9;
 }
-
-./*triangle{
-	width: 0;
-	height: 0;
-	border-left: 30px solid black;
-	border-top: 30px solid transparent;
-	border-bottom: 30px solid transparent;
-	text-align: right;
-}*/
-
