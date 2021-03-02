@@ -21,7 +21,9 @@ a:hover{
   color: #000000;
 }
 
-
+a:visited{
+  color:  #6E7FD9;
+}
 
 .allin{
   position: relative;
