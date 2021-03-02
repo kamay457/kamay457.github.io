@@ -22,7 +22,12 @@
 
 a{
   font-family: "almendra-regular";
-  color: #6E7FD9;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  color: #FFFFFF;
 }
 
 a:visited{
@@ -35,26 +40,7 @@ body{
 }
 
 
-@keyframes fall-17 {
-  0% {
-    top: -1000px;
-  }
-  12% {
-    top: 0px;
-  }
-  100% {
-    top: 0px;
-  }
-}
-
-
-.r18 {
-  animation-name: fall-18;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  /*animation-iteration-count: infinite;*/
-   animation-fill-mode: forwards;
-}
+/* */
 
 @keyframes fall-17 {
   0% {
@@ -414,5 +400,33 @@ body{
   animation-fill-mode: forwards;
 }
 
+@media  screen and (max-width: 750px){
+  body{
+    background-color: #FFFFFF;
+  }
 
+  a{
+  color: #983131;
+
+}
+
+a:visited{
+  color: #983131;
+}
+  .rectangle {
+  float: left;
+  min-width: 480px;
+  height: 20%;
+  padding-top: 5%;
+  margin: 0;
+  position: relative;
+  align-items: center;
+  display: inline-block;
+  background: #000000;
+  font-family: almendra-regular;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
  
+ }

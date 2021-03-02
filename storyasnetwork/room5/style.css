@@ -11,6 +11,7 @@ body{
 
 a{
 	color: #FFFFFF;
+	text-decoration: none;
 }
 
 a:visited{
@@ -19,7 +20,7 @@ a:visited{
 
 .text1{
 	margin: 20px auto 80px;
-	font-size: 24px;
+	font-size: 50px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -47,7 +48,7 @@ a:visited{
 
 .text2, .text3, .text4, .text5, .text6{
 	margin: 80px auto 80px;
-	font-size: 24px;
+	font-size: 50px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -114,6 +115,47 @@ a:visited{
 	transform: translateX(-100%);
 }
 
+
+@media screen and (max-width: 750px){
+
+body{
+	background: #FFFFFF;
+
+}
+
+a{
+	color: #983131;
+
+}
+
+a:visited{
+	color: #6E7FD9;
+}
+
+.text1{
+	margin: 20px auto 80px;
+	font-size: 36px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.text1 p{
+	color: #000000;
+	font-family: "almendra-regular";
+	animation :leftToright 60s linear infinite;	
+	animation-direction: alternate;	
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;	
+	transform: translateX(-100%);
+}
+
+.p2, .p3, .p4, .p5, .p6{
+	color: #000000;
+	font-size: 36px;
+}
+
+}
 /*@keyframes rightToleft{
 
 	

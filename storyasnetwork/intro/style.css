@@ -3,6 +3,7 @@
   src: url("./font/almendra-regular-webfont.woff") format("woff");
   src: url("./font/almendra-regular-webfont.woff2") format("woff2");
 }
+@media only screen and (min-width: 751px){
 
 body{
 	padding: 16px
@@ -20,26 +21,26 @@ a:visited{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	min-height: 180px;
+	min-height: 150px;
 
 }
 
 
 .box-a{
 	 font-family: "almendra-regular";
-	 font-size: 300px;
+	 font-size: 250px;
 	 margin: 0;
 	 text-align: center;
-	 width: 180px;
+	 width: 150px;
 	 color: #FFFFFF;
 }
 
 .box-b{
 	 font-family: "almendra-regular";
-	 font-size: 300px;
+	 font-size: 250px;
 	 margin: 0;
 	 text-align: center;
-	 width: 180px;
+	 width: 150px;
 
 }
 
@@ -48,54 +49,114 @@ a:visited{
 }
 
 .box1:hover{
-	font-size: 400px;
+	font-size: 300px;
 }
 
 .box2:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
 .box3:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
 .box4:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
  .box5:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
  .box6:hover{
-	font-size: 400px;
+	font-size: 300px;
 }  
 .box7:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
 .box8:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
  .box9:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
  .box10:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
 .box11:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
 .box12:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
 .box13:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
  .box14:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
  .box15:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
  .box16:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
  .box17:hover{
-	font-size: 400px;
+	font-size: 300px;
 } 
+}
+
+
+@media only screen and (max-width: 750px){
+
+	body{
+
+		background-color: #000000;
+		margin-top: 50%;
+	}
+
+	a{
+	color: #983131;
+}
+
+	a:visited{
+	color: #983131;
+}
+
+
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 50px;
+
+}
+	
+	.box-a{
+	 font-family: "almendra-regular";
+	 font-size: 48px;
+	 margin: 0;
+	 text-align: center;
+	 width: 50px;
+	 color: #FFFFFF;
+}
+
+
+	.box-b{
+	 font-family: "almendra-regular";
+	 font-size: 48px;
+	 margin: 0;
+	 text-align: center;
+	 width: 50px;
+
+}
+	
+	.box2, .box4, .box6, .box8, .box10, .box12, .box14, .box16, .box18{
+	background-color: #FFFFFF;
+}
+
+	/*.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16{
+	pointer-events: none;
+
+}  */
+/*
+	.box17:active{
+
+	}*/
+}

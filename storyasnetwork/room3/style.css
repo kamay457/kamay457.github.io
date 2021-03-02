@@ -10,6 +10,19 @@ body{
 
 }
 
+a{
+  color: #6E7FD9;
+  text-decoration: none;
+   transition: all 0s ease 0s;
+
+}
+
+a:hover{
+  color: #000000;
+}
+
+
+
 .allin{
   position: relative;
 }
@@ -19,11 +32,11 @@ body{
   color: #FFFFFF;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: almendra-regular;
-  font-size: 300px;
+  font-size: 250px;
 
 }
 
@@ -31,36 +44,2619 @@ body{
 
 .fade-in1{
   animation: fadeIn;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-delay: 0.8s;
   animation-fill-mode: backwards;
+  visibility: hidden;
   
 }
 
 
 .fade-in2{
   animation: fadeIn;
-  animation-duration: 1s;
-  animation-delay: 1.8s;
+  animation-duration: 2s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
+  visibility: hidden;
   
 }
 
 .fade-in3{
   animation: fadeIn;
-  animation-duration: 1s;
-  animation-delay: 2.0s;
+  animation-duration: 2s;
+  animation-delay: 2s;
   animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in4{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in5{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in6{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in7{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 6s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in8{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 7s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in9{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 8s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in10{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 9s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in11{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 10s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in12{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 11s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in13{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 12s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in14{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 13s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in15{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 14s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in16{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 15s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in17{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 16s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in18{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 17s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in19{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 18s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in20{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 19s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in21{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 20s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in22{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 21s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
 }
 
 
 
+.fade-in23{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 22s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in24{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 23s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in25{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 24s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in26{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 25s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in27{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 26s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in28{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 27s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in29{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 28s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in30{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 29s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in31{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 30s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in32{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 31s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in33{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 32s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in34{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 35s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in35{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 36s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in36{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 37s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in37{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 38s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in38{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 39s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in39{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 40s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in40{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 41s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in41{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 42s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in42{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 43s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in43{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 44s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in44{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 45s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in45{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 46s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in46{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 47s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in47{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 48s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in48{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 49s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in49{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 50s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in50{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 51s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in51{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 52s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in52{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 53s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in53{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 54s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in54{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 55s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in55{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 56s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in56{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 57s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in57{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 58s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in58{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 59s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in59{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 60s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in60{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 61s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in61{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 62s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in62{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 63s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in63{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 64s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in64{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 65s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in65{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 66s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in66{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 67s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in67{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 68s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in68{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 69s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in69{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 70s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in70{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 71s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in71{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 72s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in72{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 73s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in73{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 74s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in74{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 75s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in75{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 76s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in76{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay:77s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in77{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 78s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in78{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 79s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in79{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 80s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in80{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 81s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in81{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 82s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in82{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 83s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in83{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 84s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in84{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 85s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in85{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 86s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in86{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 87s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in87{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 88s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in88{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 89s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in89{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 90s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in90{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 91s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in91{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 92s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in92{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 93s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in93{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 94s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in94{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 95s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in95{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 96s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in96{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 97s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in97{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 98s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in98{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 99s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in99{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 100s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in100{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 101s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in101{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 102s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in102{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 103s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in103{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 104s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in104{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 105s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in105{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 106s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in106{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 107s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in107{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 108s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in108{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 109s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in109{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 110s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in110{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 111s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+
+.fade-in111{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 112s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in112{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 113s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in113{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 114s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in114{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 115s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in115{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 116s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in116{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 117s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in117{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 118s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in118{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 119s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in119{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 120s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in120{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 121s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in121{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 122s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in122{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 123s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in123{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 124s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in124{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 125s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in125{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 126s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in126{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 127s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in127{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 128s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in128{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 129s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in129{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 130s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in130{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 131s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in131{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 132s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in132{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 133s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in133{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 134s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in134{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 135s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in135{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 136s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in136{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 137s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in137{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 138s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in138{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 139s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in139{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 140s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in140{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 141s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in141{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 142s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in142{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 143s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in143{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 144s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in144{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 145s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in145{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 146s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in146{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 147s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in147{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 148s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in148{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 149s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in149{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 150s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in150{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 151s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in151{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 152s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in152{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 153s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in153{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 154s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+
+.fade-in154{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 155s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in155{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 156s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in156{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 157s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in157{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 158s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in158{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 159s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in159{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 160s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in160{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 161s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in161{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 162s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in162{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 163s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in163{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay:164s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in164{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 165s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in165{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 166s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in166{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 167s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in167{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 168s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in168{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 169s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in169{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 170s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in170{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay:171s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in171{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 172s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in172{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 173s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in173{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 174s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in174{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 175s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in175{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 176s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+
+.fade-in176{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 177s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in177{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 178s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in178{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 179s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in179{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 180s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in180{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 181s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in181{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 182s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in182{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 183s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in183{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 184s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in184{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 185s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in185{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 186s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in186{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 187s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in187{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 188s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in188{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 189s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in189{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 190s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in190{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 191s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in191{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 192s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in192{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 193s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in193{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 194s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in194{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 195s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in195{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 196s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in196{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 197s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in197{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 198s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+
+.fade-in198{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 199s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in199{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 200s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in200{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 201s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in201{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 202s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in202{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 203s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in203{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 204s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in204{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 205s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in205{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 206s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in206{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 207s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in207{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 208s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in208{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 209s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in209{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 210s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in210{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 211s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in211{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 212s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in212{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 213s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in213{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 214s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in214{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 215s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in215{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 216s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in216{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 217s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in217{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 218s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in218{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 219s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in219{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 220s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in220{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 221s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in221{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 222s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in222{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 223s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in223{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 224s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in224{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 225s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in225{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 226s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in226{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 227s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in227{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 228s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in228{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 229s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in229{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 230s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in230{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 231s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in231{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 232s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in232{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 233s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in233{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 234s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in234{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 235s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in235{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 236s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in236{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 237s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in237{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 238s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in238{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 239s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in239{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 240s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in240{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 241s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+
+
+.fade-in241{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 242s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in242{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 243s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in243{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 244s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in244{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 245s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in245{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 246s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in246{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 247s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in247{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 248s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in248{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 249s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in249{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 250s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in250{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 251s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in251{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 252s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in252{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 253s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in253{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 254s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in254{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 255s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in255{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 256s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in256{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 257s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in257{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 258s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in258{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 259s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in259{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 260s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in260{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 261s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in261{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 262s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in262{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 263s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in263{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 264s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in264{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 265s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in265{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 266s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in266{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 267s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in267{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 268s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in268{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 269s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in269{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 270s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in270{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 271s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in271{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 272s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in272{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 273s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in273{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 274s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in274{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 275s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in275{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 276s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in276{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 277s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in277{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 278s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in278{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 279s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in279{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 280s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in280{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 281s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in281{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 282s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in282{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 283s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in283{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 284s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in284{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 285s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+
+.fade-in285{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 286s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+
+.fade-in286{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 287s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in287{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 288s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in288{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 289s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in289{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 290s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in290{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 291s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in300{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 292s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in301{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 293s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in302{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 294s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in303{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 295s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in304{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 296s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in305{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 297s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in306{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 298s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in307{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 299s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in308{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 300s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in309{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 301s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in310{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 302s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in311{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 303s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in312{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 304s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in313{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 305s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in314{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 306s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in315{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 307s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in316{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 308s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in317{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 309s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in318{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 310s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in319{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 311s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in320{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 312s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in321{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 313s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in322{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 314s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in323{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 315s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in324{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 316s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in325{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 317s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in326{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 318s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in327{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 319s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in328{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 320s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in329{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 321s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in330{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 322s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in331{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 323s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in332{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 324s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in333{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 325s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in334{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 326s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in335{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 327s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in336{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 328s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+
+.fade-in337{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 329s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in338{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 330s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+  
+}
+
+.fade-in339{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 331s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in340{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 332s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in341{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 333s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in342{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 334s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in343{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 335s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in344{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 336s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in345{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 337s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in346{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay:338s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in347{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 339s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in348{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 340s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in349{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 341s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in350{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 342s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in351{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 343s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in352{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 344s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in353{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay:345s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in354{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 346s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in355{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 347s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in356{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 348s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in357{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 349s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in358{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 350s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
+.fade-in359{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 351s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in360{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 352s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+.fade-in361{
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 353s;
+  animation-fill-mode: backwards;
+  visibility: hidden;
+}
+
 @keyframes fadeIn {
   0% {
+    visibility: hidden;
     opacity:0;
   }
+
+  50%{
+    visibility: visible;
+    opacity: 0.5;
+  }
   100% {
-    opacity:1;
+    visibility: hidden;
+    opacity:0;
   }
 }
 
@@ -75,4 +2671,50 @@ body{
 
 .blue:hover {
   color: #6E7FD9;
+}
+
+
+@media only screen and (max-width: 750px){
+
+  body{
+  background: #FFFFFF;
+
+
+}
+
+a{
+  color: #6E7FD9;
+
+
+}
+
+a:hover{
+  color: #6E7FD9;
+}
+
+
+
+.allin{
+  position: relative;
+}
+
+
+.showup{
+  color: #000000;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: almendra-regular;
+  font-size: 80px;
+
+}
+.blue{
+  color: #983131;
+   font-size: 24px;
+}
+
+.blue:hover {
+  color: #983131;
 }

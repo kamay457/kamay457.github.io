@@ -56,3 +56,44 @@ a:hover{
 a:visited{
 	color: #6E7FD9;
 }
+
+
+@media screen and (max-width: 750px){
+	img{
+		width: 100vw;
+		height: 100vw;
+
+	}
+
+	p{
+	font-size: 16px;
+}
+	
+
+.place{
+	position: absolute;
+	top: 40vw;
+	
+}
+	div.bg{
+	height: 500px;
+	z-index: 1;
+	top: 50vw;
+	left: 50vw;
+
+}
+
+a{
+	color: #983131;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FFFFFF;
+}
+
+a:visited{
+	color: #983131;
+}
+	
+}

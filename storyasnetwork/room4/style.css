@@ -7,14 +7,366 @@
 
 body{
 	background-color: #000000;
+	padding: 16px;
 }
 
 p{
 	font-family: "almendra-regular";
-	font-size: 24px;
+	/*font-size: 18px;*/
 	color: #FFFFFF;
+	text-align: center;
 }
 
 a{
 	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #000000;
+}
+
+a:visited{
+	color: #6E7FD9;
+}
+/*.room{
+	width: 100px;
+	height: 
+}
+
+*/
+
+.container{
+	position: relative;
+	/*text-align: center; */
+
+}
+
+.room{
+	animation: showUp 2s ease-in;
+}
+
+.text1{
+	font-size: 17px;
+	position: absolute;
+	text-align: center;
+	top: 0vh;
+	left: 53vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 2s;
+	animation-fill-mode: backwards;
+}
+
+.text2{
+	font-size: 17px;
+	transform: rotate(90deg);
+	position: absolute;
+	text-align: center;
+	top: 44vh;
+	left: 74vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 4s;
+	animation-fill-mode: backwards;
+}
+
+.text3{
+	font-size: 17px;
+	transform: rotate(180deg);
+	position: absolute;
+	text-align: center;
+	top: 90vh;
+	left: 53vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 6s;
+	animation-fill-mode: backwards;
+}
+
+.text4{
+	font-size: 17px;
+	transform: rotate(-90deg);
+	position: absolute;
+	text-align: center;
+	top: 44vh;
+	left: 12vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 8s;
+	animation-fill-mode: backwards;
+}
+
+.text5{
+	font-size: 16.5px;
+	position: absolute;
+	text-align: center;
+	top: 5vh;
+	left: 60vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 10s;
+	animation-fill-mode: backwards;
+}
+
+.text6{
+	font-size: 16.5px;
+	transform: rotate(90deg);
+	position: absolute;
+	text-align: center;
+	top: 44vh;
+	left: 71vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 12s;
+	animation-fill-mode: backwards;
+}
+
+.text7{
+	font-size: 16.5px;
+	transform: rotate(180deg);
+	position: absolute;
+	text-align: center;
+	top: 85vh;
+	left: 57vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 14s;
+	animation-fill-mode: backwards;
+}
+
+.text8{
+	font-size: 16.5px;
+	transform: rotate(-90deg);
+	position: absolute;
+	text-align: center;
+	top: 43vh;
+	left: 17vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 16s;
+	animation-fill-mode: backwards;
+}
+
+.text9{
+	font-size: 16px;
+	position: absolute;
+	text-align: center;
+	top: 12vh;
+	left: 60vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 18s;
+	animation-fill-mode: backwards;
+}
+
+.text10{
+	font-size: 16px;
+	transform: rotate(90deg);
+	position: absolute;
+	text-align: center;
+	top: 44vh;
+	left: 77vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 20s;
+	animation-fill-mode: backwards;
+}
+
+.text11{
+	font-size: 16px;
+	transform: rotate(180deg);
+	position: absolute;
+	text-align: center;
+	top: 78vh;
+	left: 62vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 22s;
+	animation-fill-mode: backwards;
+}
+
+.text12{
+	font-size: 16px;
+	transform: rotate(-90deg);
+	position: absolute;
+	text-align: center;
+	top: 43vh;
+	left: 33vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 24s;
+	animation-fill-mode: backwards;
+}
+
+.text13{
+	font-size: 16px;
+	position: absolute;
+	text-align: center;
+	top: 18vh;
+	left: 65vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 26s;
+	animation-fill-mode: backwards;
+}
+
+.text14{
+
+	font-size: 16px;
+	transform: rotate(90deg);
+	position: absolute;
+	text-align: center;
+	top: 46vh;
+	left: 77vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 28s;
+	animation-fill-mode: backwards;
+}
+
+.text15{
+	font-size: 16px;
+	transform: rotate(180deg);
+	position: absolute;
+	text-align: center;
+	top: 73vh;
+	left: 65vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 30s;
+	animation-fill-mode: backwards;
+}
+
+.text16{
+	font-size: 16px;
+	transform: rotate(-90deg);
+	position: absolute;
+	text-align: center;
+	top: 45vh;
+	left: 42vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 32s;
+	animation-fill-mode: backwards;
+}
+
+.text17{
+	font-size: 16px;
+	position: absolute;
+	text-align: center;
+	top: 24vh;
+	left: 69vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 34s;
+	animation-fill-mode: backwards;
+}
+
+.text18{
+	font-size: 16px;
+	transform: rotate(90deg);
+	position: absolute;
+	text-align: center;
+	top: 46vh;
+	left: 78vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 36s;
+	animation-fill-mode: backwards;
+}
+
+.text19{
+	font-size: 16px;
+	transform: rotate(180deg);
+	position: absolute;
+	text-align: center;
+	top: 67vh;
+	left: 68vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 38s;
+	animation-fill-mode: backwards;
+}
+
+.text20{
+	font-size: 16px;
+	transform: rotate(-90deg);
+	position: absolute;
+	text-align: center;
+	top: 45vh;
+	left: 52vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 40s;
+	animation-fill-mode: backwards;
+}
+
+.text21{
+	font-size: 16px;
+	position: absolute;
+	text-align: center;
+	top: 32vh;
+	left: 77vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 42s;
+	animation-fill-mode: backwards;
+}
+
+.text22{
+	font-size: 16px;
+	transform: rotate(90deg);
+	position: absolute;
+	text-align: center;
+	top: 44vh;
+	left: 82vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 44s;
+	animation-fill-mode: backwards;
+}
+
+.text23{
+	font-size: 16px;
+	transform: rotate(180deg);
+	position: absolute;
+	text-align: center;
+	top: 57vh;
+	left: 76vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 46s;
+	animation-fill-mode: backwards;
+}
+
+.text24{
+	font-size: 16px;
+	transform: rotate(-90deg);
+	position: absolute;
+	text-align: center;
+	top: 44.5vh;
+	left: 65vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 48s;
+	animation-fill-mode: backwards;
+}
+
+.text25{
+	font-size: 17px;
+	position: absolute;
+	text-align: center;
+	top: 44vh;
+	left: 81vh;
+	animation: showUp 3s ease-in;
+	animation-delay: 50s;
+	animation-fill-mode: backwards;
+
+}
+
+
+@keyframes showUp{
+	0%{
+		opacity: 0%
+	}
+
+	50%{
+		opacity: 50%
+	}
+
+	100%{
+		opacity: 100%
+	}
+
+
+}
+
+@media screen and (max-width: 750px){
+
+
+body{
+	background-color: #FFFFFF;
+	
+}
+	img{
+		width: 100vw;
+		height: 300vh;
+	}
 }

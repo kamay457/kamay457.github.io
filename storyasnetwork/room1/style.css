@@ -5,10 +5,27 @@
 }
 
 
+html{
+	overflow-y: scroll;
+}
+
 
 body{
 	background: black;
 	padding: 16px;
+}
+
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #000000;
+}
+
+a:visired{
+	color: #6E7FD9;
 }
 
 .container{
@@ -29,28 +46,28 @@ body{
 }
 
 .box1{
-	height: 20vh;
+	height: 20vw;
 }
 
 .box2{
-	height: 9vh;
+	height: 19vw;
 }
 
 .box3{
-	height: 12vh;
+	height: 12vw;
 }
 
 .box4{
-	height: 18vh;
+	height: 18vw;
 }
 
 .box5{
-	height: 25vh;
+	height: 25vw;
 }
 
 
 .box6{
-	height: 10vh;
+	height: 10vw;
 }
 
 .text1{
@@ -58,8 +75,10 @@ body{
 	 font-size: 24px;
 	 color: #FFFFFF;
 	 animation: fadeIn;
-	  animation-duration: 1s;
+	  animation-duration: 2s;
+	  animation-timing-function: ease-in-out;
 	  animation-fill-mode: backwards;
+	  visibility: hidden;
 }
 
 .text2{
@@ -67,9 +86,11 @@ body{
 	 font-size: 24px;
 	 color: #FFFFFF;
 	 animation: fadeIn;
-	 animation-duration: 1s;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
 	 animation-delay: 2s;
 	 animation-fill-mode: backwards;
+	 visibility: hidden;
 
 }
 
@@ -78,9 +99,11 @@ body{
 	 font-size: 24px;
 	 color: #FFFFFF;
 	 animation: fadeIn;
-	 animation-duration: 1s;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
 	 animation-delay: 4s;
 	 animation-fill-mode: backwards;
+	 visibility: hidden;
 
 }
 
@@ -89,9 +112,11 @@ body{
 	 font-size: 24px;
 	 color: #FFFFFF;
 	 animation: fadeIn;
-	 animation-duration: 1s;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
 	 animation-delay: 6s;
 	 animation-fill-mode: backwards;
+	 visibility: hidden;
 
 }
 
@@ -100,9 +125,11 @@ body{
 	 font-size: 24px;
 	 color: #FFFFFF;
 	 animation: fadeIn;
-	 animation-duration: 1s;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
 	 animation-delay: 8s;
 	 animation-fill-mode: backwards;
+	 visibility: hidden;
 
 }
 
@@ -111,9 +138,11 @@ body{
 	 font-size: 24px;
 	 color: #FFFFFF;
 	 animation: fadeIn;
-	 animation-duration: 1s;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
 	 animation-delay: 10s;
 	 animation-fill-mode: backwards;
+	 visibility: hidden;
 
 }
 
@@ -124,27 +153,808 @@ body{
 	 color: #FFFFFF;
 	 text-align: center;
 	 animation: fadeIn;
-	 animation-duration: 1s;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
 	 animation-delay: 12s;
 	 animation-fill-mode: backwards;
+	 visibility: hidden;
 
 
 }
 
+.text8{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 14s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text9{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 16s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+.text10{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 18s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text11{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 20s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text12{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 22s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text13{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: right;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 24s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text14{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: right;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 26s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
 
 
+.text15{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: right;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 28s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
 
+}
 
+.text16{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: right;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 30s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text17{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: right;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 32s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+}
+
+.text18{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: right;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 34s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text19{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 36s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text20{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 38s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text21{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 40s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text22{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 42s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text23{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 44s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text24{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 46s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text25{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 48s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text26{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 50s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text27{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 52s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text28{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 54s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text29{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 56s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text30{
+	 font-family: almendra-regular;
+	 font-size: 24px;
+	 color: #FFFFFF;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 20s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 58s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
 
 @keyframes fadeIn {
   0% {
+    visibility: hidden;
     opacity:0;
   }
 
   50%{
-  	opacity: 0.5;l
+    visibility: visible;
+    opacity: 0.5;
   }
   100% {
-    opacity:1;
+    visibility: hidden;
+    opacity:0;
   }
+}
+
+
+ @media screen and (max-width: 750px){
+
+ 	body{
+ 		background-color: #FFFFFF;
+ 	}
+
+ 	.box{
+	border-bottom: 0.5px solid #000000;
+}
+
+	a{
+	color: #983131;
+	text-decoration: none;
+}
+/*.box1{
+	height: 25vh;
+}
+
+.box2{
+	height: 19vh;
+}
+
+.box3{
+	height: 16vh;
+}
+
+.box4{
+	height: 18vh;
+}
+
+.box5{
+	height: 20vh;
+}
+
+
+.box6{
+	height: 18vh;
+}
+*/
+
+.text1{
+	 font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	  animation-duration: 2s;
+	  animation-timing-function: ease-in-out;
+	  animation-fill-mode: backwards;
+	  visibility: hidden;
+}
+
+.text2{
+	font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 2s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text3{
+	font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 4s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text4{
+	font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 6s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text5{
+	font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 8s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text6{
+	font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 10s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+
+.text7{
+	font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 12s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+
+}
+
+.text8{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 14s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text9{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 16s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+.text10{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 18s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text11{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 20s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text12{
+	 font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 22s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text13{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 24s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text14{
+	 font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 26s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+
+.text15{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 28s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text16{
+	 font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 30s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text17{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 32s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+}
+
+.text18{
+	 font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 34s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text19{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 36s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text20{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 38s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text21{
+	 font-family: almendra-regular;
+	font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 40s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text22{
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 42s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text23{
+	font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 44s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text24{
+	font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	/* text-align: right;*/
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 46s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text25{
+	 font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 48s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text26{
+	font-size: 18px;
+	 color: #000000;
+	 text-align: center;
+	 animation: fadeIn;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 50s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text27{
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 52s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text28{
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 2s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 54s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text29{
+	
+	font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 20s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 56s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
+.text30{
+	 font-family: almendra-regular;
+	 font-size: 18px;
+	 color: #000000;
+	 animation: fadeIn;
+	 text-align: center;
+	 animation-duration: 20s;
+	 animation-timing-function: ease-in-out;
+	 animation-delay: 58s;
+	 animation-fill-mode: backwards;
+	 visibility: hidden;
+
+}
+
 }

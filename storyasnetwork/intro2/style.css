@@ -23,6 +23,7 @@ a{
 	font-family: Avara-Black;
 	font-size: 26px;
   color: #000000;
+  text-decoration: none;
 
 }
 
@@ -63,11 +64,25 @@ p:hover {
    animation-iteration-count: infinite; 
 }
 
+@media only screen and (max-width: 767px){
 
 
+body{
+  background-color: #000000;
+}
+  p{
+    font-size: 20px;
+    color: #FFFFFF;
+  }
 
+  a{
+    font-size: 20px;
+    color: #983131;
+  }
 
-
+  p:hover{
+    animation: none;
+  }
 /*@keyframes shake {
   0%,100% {
 
