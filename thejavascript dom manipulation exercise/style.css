@@ -1,0 +1,153 @@
+/*#more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40rem;
+  height: 42.5rem;
+  background: #ffe6fc;
+  align-items: center;
+  /*border-radius: 50% 50% 25% 25%;
+  box-shadow: inset 0px 0px 75px #333;
+}
+*/
+
+body{
+	background-color: black; 
+}
+
+
+.container{
+  background: center;
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  height: 80vh;
+  background: #ffe6fc;
+  align-items: center;
+}
+
+button{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 30px;
+	color: white;
+	border-radius: 100vh;
+	cursor: pointer;
+	background-color: #fca1a1;
+	border: none;
+}
+
+
+#cleanup{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 30px;
+	bottom: 150px;
+	color: white;
+	border-radius: 100vh;
+	cursor: pointer;
+	background-color: #fca1a1;
+	border: none;
+}
+
+
+strong{
+	color: #ff7dcd;
+}
+
+
+
+.heart {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  left: 50%;
+ /**/
+  cursor: pointer;
+}
+
+
+.heart:before,.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #f88dc8;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin :100% 100%;
+}
+ 
+.flex-container{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 100vw;
+  	height: 25vh;
+  	/*background-color: white;*/
+}
+
+
+#item1{
+	margin: 10px auto;
+	padding: 5px 10px;
+	background-color: white;
+}
+
+#item2{
+	margin: 10px auto;
+	padding: 5px 10px;
+	background-color: #b0f5f1;
+} 
+
+#item3{
+	margin: 10px auto;
+	padding: 5px 10px;
+	background-color: #bcf7e5;
+}
+
+#item4{
+	margin: 10px auto;
+	padding: 5px 10px;
+	background-color: #edf7bc;
+}
+
+#item5{
+	margin: 10px auto;
+	padding: 5px 10px;
+	background-color: #ecbdff;
+}
+
+#item6{
+	margin: 10px auto;
+	padding: 5px 10px;
+	background-color: #ffd1bd;
+}
+/*
+.item1{
+
+}*/
+
+/*
+.item2{
+	background-color: white;
+	left: 50px;
+	 top: 0;
+	 width: 50px;
+	 height: 80px;
+	 border-radius: 50px 50px 0 0;
+	 transform: rotate(-45deg);
+	 transform-origin: 0 100%;
+	}*/
