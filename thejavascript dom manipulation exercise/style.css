@@ -34,6 +34,7 @@ button{
 	height: 50px;
 	position: absolute;
 	right: 30px;
+	bottom: 500px;
 	color: white;
 	border-radius: 100vh;
 	cursor: pointer;
@@ -47,7 +48,7 @@ button{
 	height: 50px;
 	position: absolute;
 	right: 30px;
-	bottom: 150px;
+	bottom: 250px;
 	color: white;
 	border-radius: 100vh;
 	cursor: pointer;
@@ -55,6 +56,15 @@ button{
 	border: none;
 }
 
+#count{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 30px;
+	bottom: 150px;
+	color: blue;
+}
+	
 
 strong{
 	color: #ff7dcd;

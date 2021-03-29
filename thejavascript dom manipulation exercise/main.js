@@ -3,8 +3,9 @@ let button = document.querySelector('button');
 let container = document.querySelector('#more');
 let heart= document.querySelectorAll('.heart');
 let container2 = document.querySelector('#container2');
-let count= document.querySelectorAll('#count')
 let cleanUp =document.querySelector('#cleanup')
+
+
 
 
 let colorWhite = document.querySelector('#item1');
@@ -24,8 +25,11 @@ button.addEventListener('click', function(event) {
   newItem.classList.add('new-content');
   newItem.innerHTML = '<strong>Sending Love!</strong>';
   container.appendChild(newItem);
-  console.log(count);
-  count.innerHTML = '#count';
+
+    let mess = container.querySelectorAll('div');
+    var count = mess.length;
+    console.log(count);
+    count.innerHTML = count;
 });
 
 
@@ -45,11 +49,12 @@ container2.addEventListener('click', function (event) {
   });
 
 
-cleanUp.addEventListener('click', function(event) {
- heart.innerHTML = clear;
-  heart.remove();
-});
 
+cleanUp.addEventListener('click',function(){
+    container.innerHTML='';
+    count.innerHTML='0';
+   
+})
 
 colorWhite.addEventListener("click", function(event){
     document.body.style.backgroundColor = 'white'; 
