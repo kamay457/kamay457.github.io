@@ -26,10 +26,19 @@ button.addEventListener('click', function(event) {
   newItem.innerHTML = '<strong>Sending Love!</strong>';
   container.appendChild(newItem);
 
-    let mess = container.querySelectorAll('div');
-    var count = mess.length;
-    console.log(count);
-    count.innerHTML = count;
+let countContainer = document.querySelector('#count');
+let mess = container.querySelectorAll('div');
+let count = mess.length;
+
+countContainer.innerHTML = count;
+
+
+
+
+    // let mess = container.querySelectorAll('div');
+    // let count = mess.length;
+    // console.log(count);
+    // count.innerHTML = count;
 });
 
 
@@ -52,7 +61,7 @@ container2.addEventListener('click', function (event) {
 
 cleanUp.addEventListener('click',function(){
     container.innerHTML='';
-    count.innerHTML='0';
+    // count.innerHTML='0';
    
 })
 
