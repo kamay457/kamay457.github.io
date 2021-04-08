@@ -1,0 +1,80 @@
+body{
+	padding: 20px;
+	background-color: #cc9b9b;
+}
+
+img {
+	width: 80%;
+	height: 80%;
+	margin: 10px;
+}
+
+.img-1{
+	display: block;
+	text-align: center;
+	justify-content: center; 
+}
+
+h1{
+	font-family:'Karma', serif;
+}
+
+p, a{
+	font-family:'Karma', serif;
+	font-size: 18px;
+}
+
+a{
+	color: #b0748a;
+}
+
+a:visited{
+	color: #573842;
+
+}
+
+.rightnextto{
+	text-align: right;
+	margin: 3px 7px;
+}
+
+.head{
+	display: inline-block;
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.flexbox{
+	display: flex;
+	height: 100%;
+}
+
+.videodisplay{
+	margin: 12px;
+	text-align: center;
+	justify-content: center; 
+}
+
+.description{
+	margin: 12px;
+	text-align: justify;
+
+}
+
+
+.grid{
+	display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    padding: 16px;
+}
+
+.grid-item1{
+	height: 100%;
+	background-color: #bdbc99;
+}
+
+
+
