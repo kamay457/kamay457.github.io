@@ -1,0 +1,235 @@
+/*html{
+	height: 100%;
+	width: 100%;
+
+}*/
+body{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	
+}
+
+h1{
+	position: absolute;
+	width: 1180px;
+	height: 128px;
+	left: 373px;
+	top: 772px;
+}
+
+div{
+	min-width: 1440;
+}
+
+
+/*.container{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+*/
+.line{
+	position: absolute;
+	width: 1434.04px;
+	height: 0px;
+	left: 0px;
+	top: 256px;
+	border: 5px solid #CA1F34;
+	transform: rotate(-10.28deg);
+	animation: line1 2s linear infinite alternate;
+}
+
+@keyframes line1{
+	0%{
+		transform: translate(-80px, -80px);
+	}
+	100%{
+		transform: translate(-10px -10px);
+	}
+}
+
+.line2{
+	
+	display: block;
+	position: absolute;
+	width: 717.01px;
+	height: 0px;
+	left: 600px;
+	border: 5px solid #850211;
+	transform: rotate(45deg);
+}
+
+.line3{
+	display: block;
+	position: absolute;
+	width: 1101.06px;
+	height: 0px;
+	left: 347px;
+	top: 0px;
+	border: 5px solid #FEBCC4;
+	transform: rotate(6.94deg);
+
+}
+
+.line4{
+	display: block;
+	position: absolute;
+	width: 1272.6px;
+	height: 0px;
+	left: 456px;
+	top: 500px;
+	border: 5px solid #F9A0AA;
+	transform: rotate(-39.36deg);
+
+}
+
+.line5{
+	
+	position: absolute;
+	width: 1303.84px;
+	height: 0px;
+	left: 0px;
+	/*top: -145px;*/
+	border: 5px solid #CA1F34;
+	transform: rotate(19.9deg);
+
+
+}
+
+.line6{
+	display: block;
+	position: absolute;
+	width: 1350.08px;
+	left: 0px;
+	top: 275px;
+	border: 5px solid #CA1F34;
+	transform: rotate(-37.59deg);
+
+}
+
+.line7{
+	display: block;
+	position: absolute;
+	width: 1209.38px;
+	left: 400px;
+	border: 5px solid #F22D45;
+	transform: rotate(63.08deg);
+}
+
+.line8{
+	display: block;
+	position: absolute;
+	width: 1300.62px;
+	left: -50px;
+	top: 600px;
+	border: 5px solid #CA1F34;
+	transform: rotate(22.94deg);
+}
+
+.line9{
+	position: absolute;
+	width: 1334.64px;
+	left: -500px;
+	border: 5px solid #820413;
+	transform: rotate(81.78deg);
+
+}
+
+.line10{
+	position: absolute;
+	width: 1444.66px;
+	left: -30px;
+	top: 485px;
+	border: 5px solid #CA1F34;
+	transform: rotate(-4.61deg);
+}
+
+.line11{
+	position: absolute;
+	width: 1951.76px;
+	left: -510px;
+	top: 0px;
+	border: 5px solid #FFB5B5;
+	transform: rotate(34.19deg);
+}
+
+.line12{
+	position: absolute;
+	width: 1679.81px;
+	top: 200px;
+	border: 5px solid #F13232;
+	transform: rotate(34.4deg);
+
+}
+
+.line13{
+	position: absolute;
+	width: 1484.02px;
+	left: 58px;
+	top: 450px;
+	border: 5px solid #850505;
+	transform: rotate(-21.05deg);
+}
+
+.line14{
+	position: absolute;
+	width: 1400.71px;
+/*	left: 560px;*/
+	top: 23px;
+	border: 5px solid #BC6D6D;
+	transform: rotate(84.08deg);
+}
+
+.line15{
+	position: absolute;
+	width: 1990.92px;
+	left: -100px;
+	top: 0px;
+	border: 5px solid #CA1F34;
+	transform: rotate(109.51deg);
+}
+
+.line16{
+	position: absolute;
+	width: 1990.92px;
+	left: -500px;
+	border: 5px solid #CA1F34;
+	transform: rotate(109.51deg);
+}
+
+.line17{
+	position: absolute;
+	width: 1465.53px;
+	left: -20px;
+	top: 221px;
+	border: 5px solid #D1808A;
+	transform: rotate(10.06deg);
+}
+
+.line18{
+	position: absolute;
+	width: 1466.4px;
+	left: -30px;
+	top: 477px;
+	border: 5px solid #EA0E0E;
+	transform: rotate(10.89deg);
+}
+
+.line19{
+	position: absolute;
+	width: 1439.41px;
+	left: -273px;
+	top: 300px;
+	border: 5px solid #A31717;
+	transform: rotate(50.48deg);
+}
+
+.line20{
+	position: absolute;
+	width: 1868.56px;
+	/*left: 513px;*/
+	top: 100px;
+	border: 5px solid #F1380F;
+	transform: rotate(48.78deg);	
+}

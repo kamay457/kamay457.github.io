@@ -1,0 +1,29 @@
+body{
+	padding: 16px;
+}
+
+
+.words{
+	font-size: 30px;
+}
+/*.animation{
+	animation-name: move;
+	transform: scale(0.6, 0.6);
+}*/
+
+/*.word_1{
+	
+	animation: move  2s linear;
+	transform-origin: center;
+}
+
+
+.word_2{
+	
+}
+
+@keyframes move{
+	to {
+		transform: scale(2);
+	}
+}*/

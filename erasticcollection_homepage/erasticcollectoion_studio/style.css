@@ -1,0 +1,88 @@
+body{
+	padding: 16px;
+	background-color: #ad2843;
+}
+
+p{
+	font-size: 20px;
+}
+/*.mothercontainer{
+	display: grid;
+	min-height: 100vh;
+	grid-template-columns: auto;
+	grid-template-rows: 100px 200px;
+}
+*/
+
+
+.dm-container{
+	padding: 16px;
+	/*display: grid;
+	grid-template-columns: 100px auto 200px;*/
+}
+
+.dm-img{
+	width: 70%;
+
+}
+.box{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.disp{
+	opacity: 0;
+}
+.filter{
+	padding: 10px;
+	margin: auto;
+	height: 200%;
+}
+
+.circle_one{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #B40000;
+}
+
+.circle_two{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #eb2a51;
+}
+
+.circle_three{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #db3327;
+}
+
+.circle_four{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #801a18;
+}
+
+.circle_five{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #db2a27;
+}
+
+.circle_six{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #7d4545;
+}
