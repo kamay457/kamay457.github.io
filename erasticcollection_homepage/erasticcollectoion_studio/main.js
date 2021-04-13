@@ -12,7 +12,7 @@ var base = new Airtable({ apiKey: "keycg1GTfNi5JyiP0" }).base(
 );
 
 //get the "books" table from the base, select ALL the records, and specify the functions that will receive the data
-base("message").select({}).eachPage(gotPageOfDms, gotAllDms);
+base("message").select({view: 'Grid view'}).eachPage(gotPageOfDms, gotAllDms);
 
 // an empty array to hold our book data
 const dms = [];
@@ -69,6 +69,8 @@ function showDms() {
       var dmBox = document.createElement("box");
       dmContainer.classList.add("dm-box");
       document.querySelector(".box").append(dmBox);
+
+
 
     
      var dmMeaning = document.createElement("p");
@@ -256,30 +258,14 @@ circle_Seven.addEventListener("click", function(){
       else {
         dmImage.style.display = "none";
         dmMeaning.style.display = "none";
+        dmPlace.style.display = "none";
 
       }
     })
 
 
 
-  //   circle_Four.addEvemtListener("click", function(){
-  //     if (dmGenre === "emotion_four") {
-  //       dmImage.src = dm.fields.image[0].url;
-  //       dmImage.classList.add("dm_image");
-  //       dmImage.style.display = "block";
-  //       document.querySelector(".filter").appendChild(dmGenre);
-  //     }
-  //     else {
-  //       dmImage.style.display = "none";
-  //     }
-  //   })
-//     if (dmGenre  === "emotion_1") {
-//     // adding size genre as a class to the container
-//     var dmImage = document.createElement("img");
-//         dmImage.classList.add(".circle_one");
-//     dmImage.src = dm.fields.image[0].url;
-//     document.querySelector(".span").appendChild(dmImage);
-// }
+  
 
 
     
