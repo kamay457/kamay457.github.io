@@ -2,9 +2,74 @@ body{
 	padding: 16px;
 }
 
+p{
+	font-size: 250px;
+	font-family: 'Sanchez', serif;
+	text-align: center;
+	color: #450404;
+	animation: fadeout 5s ease forwards;
+}
 
-.words{
-	font-size: 30px;
+
+@keyframes fadeout{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+button{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 30px;
+	bottom: 500px;
+	color: white;
+	border-radius: 100vh;
+	cursor: pointer;
+	background-color: #fca1a1;
+	border: none;
+}
+/*
+.container{
+	width: 100vw;
+	height: 50vh;
+}*/
+
+.word{
+	font-size: 50px;
+	font-family: 'Sanchez', serif;
+	position: absolute;
+	cursor: pointer;
+}
+
+#word_1, #word_2, #word_3{
+	color: #B40000;
+}
+
+#word_4, #word_5, #word_6{
+	color: #eb2a51;
+}
+
+#word_7, #word_8{
+	color: #db3327;
+}
+
+#word_10, #word_11{
+	color: #7d4545;
+}
+#word_12, #word_13, #word_14{
+	color: #db2a27;
+}
+
+#word_15, #word_16, #word_17, #word_18, #word_19{
+	color: #801a18;
+}
+
+#word_20, #word_9{
+	color: #e0b1b9;
 }
 /*.animation{
 	animation-name: move;

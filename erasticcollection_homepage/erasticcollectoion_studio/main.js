@@ -73,16 +73,24 @@ function showDms() {
     
      var dmMeaning = document.createElement("p");
      dmMeaning.classList.add("dm_meaning");
-      dmMeaning.innerText = dm.fields.meaning;
+     dmMeaning.innerText = dm.fields.meaning;
      dmBox.append(dmMeaning);
+
+     var dmPlace = document.createElement("p");
+     dmPlace.classList.add("dm_place");
+     dmPlace.innerText = dm.fields.place;
+     dmBox.append(dmPlace);
 
 
     var dmImage = document.createElement("img");
     dmImage.classList.add("dm_image");
     dmImage.src = dm.fields.image[0].url;
     dmImage.setAttribute('data-description', dm.fields.image);
-    document.body.appendChild(dmImage);
+    // document.body.appendChild(dmImage);
+    dmBox.append(dmImage);
 
+    var dmGenre = document.createElement("div");
+    var dmGenre = dm.fields.genre;
 
     //get genre from airtable
     // var  dmGenre = dm.fields.genre;
@@ -92,52 +100,166 @@ function showDms() {
 
 
 
-    // var circle_One = document.querySelector(".circle_one");
-  //   var circle_Two = document.querySelector(".circle_two");
-  //   var circle_Three = document.querySelector(".circle_three");
-  //   var circle_Four = document.querySelector(".circle_four");
-  //   var circle_Five = document.querySelector(".circle_five");
-  //   var circle_Six = document.querySelector(".circle_six");
+    var circle_One = document.querySelector(".circle_one");
+    var circle_Two = document.querySelector(".circle_two");
+    var circle_Three = document.querySelector(".circle_three");
+    var circle_Four = document.querySelector(".circle_four");
+    var circle_Five = document.querySelector(".circle_five");
+    var circle_Six = document.querySelector(".circle_six");
+    var circle_Seven = document.querySelector(".circle_seven");
 
 
 
 
-  //  circle_One.addEvemtListener("click", function(){
-  //     if (dmGenre === "emotion_one") {
-  //       dmImage.src = dm.fields.image[0].url;
-  //       dmImage.classList.add("dm_image");
-  //       dmImage.style.display = "block";
-  //       document.querySelector(".filter").appendChild(dmGenre);
-  //     }
-  //     else {
-  //       dmImage.style.display = "none";
-  //     }
-  //   })
+   circle_One.addEventListener("click", function(){
+      if (dmGenre === "emotion_one") {
+        dmImage.src = dm.fields.image[0].url;
+        dmImage.classList.add("dm_image");
+        dmMeaning.classList.add("dm_meaning");
+        dmMeaning.innerText = dm.fields.meaning;
+        dmPlace.classList.add("dm_place");
+        dmPlace.innerText = dm.fields.place;
+
+        dmImage.style.display = "inline-block";
+        dmMeaning.style.display = "inline-block";
+        dmPlace.style.display = "inline-block";
+        document.getElementById("box").appendChild(dmGenre);
+      }
+      else {
+        dmImage.style.display = "none";
+        dmMeaning.style.display = "none";
+        dmPlace.style.display = "none"
+      }
+    })
 
 
-  // circle_Two.addEvemtListener("click", function(){
-  //     if (dmGenre === "emotion_two") {
-  //       dmImage.src = dm.fields.image[0].url;
-  //       dmImage.classList.add("dm_image");
-  //       dmImage.style.display = "block";
-  //       document.querySelector(".filter").appendChild(dmGenre);
-  //     }
-  //     else {
-  //       dmImage.style.display = "none";
-  //     }
-  //   })
+  circle_Two.addEventListener("click", function(){
+      if (dmGenre === "emotion_two") {
+        dmImage.src = dm.fields.image[0].url;
+        dmImage.classList.add("dm_image");
+        dmMeaning.classList.add("dm_meaning");
+        dmMeaning.innerText = dm.fields.meaning;
+        dmPlace.classList.add("dm_place");
+     dmPlace.innerText = dm.fields.place;
 
-  //   circle_Three.addEvemtListener("click", function(){
-  //     if (dmGenre === "emotion_three") {
-  //       dmImage.src = dm.fields.image[0].url;
-  //       dmImage.classList.add("dm_image");
-  //       dmImage.style.display = "block";
-  //       document.querySelector(".filter").appendChild(dmGenre);
-  //     }
-  //     else {
-  //       dmImage.style.display = "none";
-  //     }
-  //   })
+        dmImage.style.display = "inline-block";
+        dmMeaning.style.display = "inline-block";
+        dmPlace.style.display = "inline-block";
+        document.getElementById("box").appendChild(dmGenre);
+      }
+      else {
+        dmImage.style.display = "none";
+        dmMeaning.style.display = "none";
+         dmPlace.style.display = "none"
+      }
+    })
+
+    circle_Three.addEventListener("click", function(){
+      if (dmGenre === "emotion_three") {
+        dmImage.src = dm.fields.image[0].url;
+        dmImage.classList.add("dm_image");
+        dmMeaning.classList.add("dm_meaning");
+        dmMeaning.innerText = dm.fields.meaning;
+        dmPlace.classList.add("dm_place");
+     dmPlace.innerText = dm.fields.place;
+
+        dmImage.style.display = "inline-block";
+        dmMeaning.style.display = "inline-block";
+        dmPlace.style.display = "inline-block";
+
+        document.getElementById("box").appendChild(dmGenre);
+      }
+      else {
+        dmImage.style.display = "none";
+        dmMeaning.style.display = "none";
+         dmPlace.style.display = "none"
+      }
+    })
+
+    circle_Four.addEventListener("click", function(){
+      if (dmGenre === "emotion_four") {
+        dmImage.src = dm.fields.image[0].url;
+        dmImage.classList.add("dm_image");
+        dmMeaning.classList.add("dm_meaning");
+        dmMeaning.innerText = dm.fields.meaning;
+        dmPlace.classList.add("dm_place");
+     dmPlace.innerText = dm.fields.place;
+
+        dmImage.style.display = "inline-block";
+        dmMeaning.style.display = "inline-block";
+        dmPlace.style.display = "inline-block";
+        document.getElementById("box").appendChild(dmGenre);
+      }
+      else {
+        dmImage.style.display = "none";
+        dmMeaning.style.display = "none";
+         dmPlace.style.display = "none"
+      }
+    })
+
+    circle_Five.addEventListener("click", function(){
+      if (dmGenre === "emotion_five") {
+        dmImage.src = dm.fields.image[0].url;
+        dmImage.classList.add("dm_image");
+        dmMeaning.classList.add("dm_meaning");
+        dmMeaning.innerText = dm.fields.meaning;
+        dmPlace.classList.add("dm_place");
+     dmPlace.innerText = dm.fields.place;
+
+        dmImage.style.display = "inline-block";
+        dmMeaning.style.display = "inline-block";
+        dmPlace.style.display = "inline-block";
+        document.getElementById("box").appendChild(dmGenre);
+      }
+      else {
+        dmImage.style.display = "none";
+        dmMeaning.style.display = "none";
+         dmPlace.style.display = "none"
+      }
+    })
+
+  circle_Six.addEventListener("click", function(){
+      if (dmGenre === "emotion_six") {
+        dmImage.src = dm.fields.image[0].url;
+        dmImage.classList.add("dm_image");
+        dmMeaning.classList.add("dm_meaning");
+        dmMeaning.innerText = dm.fields.meaning;
+        dmPlace.classList.add("dm_place");
+     dmPlace.innerText = dm.fields.place;
+
+        dmImage.style.display = "inline-block";
+        dmMeaning.style.display = "inline-block";
+        dmPlace.style.display = "inline-block";
+        document.getElementById("box").appendChild(dmGenre);
+      }
+      else {
+        dmImage.style.display = "none";
+        dmMeaning.style.display = "none";
+         dmPlace.style.display = "none"
+      }
+    })
+
+circle_Seven.addEventListener("click", function(){
+      if (dmGenre === "others") {
+        dmImage.src = dm.fields.image[0].url;
+        dmImage.classList.add("dm_image");
+        dmMeaning.classList.add("dm_meaning");
+        dmMeaning.innerText = dm.fields.meaning;
+        dmPlace.classList.add("dm_place");
+     dmPlace.innerText = dm.fields.place;
+
+        dmImage.style.display = "inline-block";
+        dmMeaning.style.display = "inline-block";
+        dmPlace.style.display = "inline-block";
+        document.getElementById("box").appendChild(dmGenre);
+      }
+      else {
+        dmImage.style.display = "none";
+        dmMeaning.style.display = "none";
+
+      }
+    })
+
 
 
   //   circle_Four.addEvemtListener("click", function(){
@@ -178,6 +300,8 @@ function showDms() {
   // });
 }
 
+
+
 document.addEventListener('mouseover', function(event){
   if (event.target.tagName == "Img"){
     var dmImage = event.target.getAttribute('data-description');
@@ -186,12 +310,13 @@ document.addEventListener('mouseover', function(event){
 
 
 let colorRed = document.querySelector(".circle_one");
-var filterEm_1 =  document.querySelector(".em_1");
+// var filterEm_1 =  document.querySelector(".em_1");
 let colorDark = document.querySelector(".circle_two");
 let colorLight = document.querySelector(".circle_three");
 let colorMedium = document.querySelector(".circle_four");
 let colorWhite = document.querySelector(".circle_five");
-let colorOrange = document.querySelector(".circle_six");
+let colorOrange = document.querySelector(".circle_six"); 
+let colorOthers = document.querySelector(".circle_seven"); 
 
 
 colorRed.addEventListener("click", function(event){
@@ -215,6 +340,9 @@ colorWhite.addEventListener("click", function(event){
 });
 colorOrange.addEventListener("click", function(event){
     document.body.style.backgroundColor = '#7d4545'; 
+});
+colorOthers.addEventListener("click", function(event){
+    document.body.style.backgroundColor = '#e0b1b9'; 
 });
   // // find the shelf element
   // const message = document.getElementById("message");
