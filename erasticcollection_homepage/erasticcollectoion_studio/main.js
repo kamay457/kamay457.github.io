@@ -322,30 +322,26 @@ circle_Seven.addEventListener("click", function(){
 
 
 document.addEventListener('mouseover', function(event){
+  if (event.target.tagName == "img"){
+    var dmImage = event.target.getAttribute('data-description');
+    var dmBox = document.createElement("div");
+    dmBox.classList.add("dm-box");
+    document.getElementById("box").append(dmBox);
+    var dmMeaning = document.createElement("p");
+     dmMeaning.classList.add("dm_meaning");
+     dmMeaning.innerText = dm.fields.meaning;
+     dmBox.append(dmMeaning);
 
 
-  // if (event.target.tagName == "img"){
-  //   var dmImage = event.target.getAttribute('data-description');
-  //   var dmBox = document.createElement("div");
-  //   dmBox.classList.add("dm-box");
-  //   document.getElementById("box").append(dmBox);
-  //   var dmMeaning = document.createElement("p");
-  //    dmMeaning.classList.add("dm_meaning");
-  //    dmMeaning.innerText = dm.fields.meaning;
-  //    dmBox.append(dmMeaning);
-
-
-  //    // add place to box
+     // add place to box
 
      var dmPlace = document.createElement("p");
      dmPlace.classList.add("dm_place");
-    dmPlace.style.display = "none";
+     dmPlace.innerText = dm.fields.place;
+     dmBox.append(dmPlace);
 
-  //    dmPlace.innerText = dm.fields.place;
-  //    dmBox.append(dmPlace);
-
-  //   dmMeaning.style.display = "block";
-  // }console.log('img');
+    dmMeaning.style.display = "block";
+  }console.log('img');
 
 })
 
