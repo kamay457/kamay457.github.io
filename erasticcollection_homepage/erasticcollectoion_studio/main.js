@@ -62,34 +62,46 @@ function showDms() {
   console.log("showDms()");
   dms.forEach((dm) => {
 
+
+       // creating a new div container
+
       var dmContainer = document.createElement("div");
       dmContainer.classList.add("dm-container");
       document.querySelector(".container").append(dmContainer);
 
-      var dmBox = document.createElement("box");
-      dmContainer.classList.add("dm-box");
-      document.querySelector(".box").append(dmBox);
+
+      // creating a new div box
+       // this is where our cards go on
+      var dmBox = document.createElement("div");
+      dmBox.classList.add("dm-box");
+      document.getElementById("box").append(dmBox);
 
 
 
     
-     var dmMeaning = document.createElement("p");
-     dmMeaning.classList.add("dm_meaning");
-     dmMeaning.innerText = dm.fields.meaning;
-     dmBox.append(dmMeaning);
-
-     var dmPlace = document.createElement("p");
-     dmPlace.classList.add("dm_place");
-     dmPlace.innerText = dm.fields.place;
-     dmBox.append(dmPlace);
+     // add image to box
+     // var dmMeaning = document.createElement("p");
+     // dmMeaning.classList.add("dm_meaning");
+     // dmMeaning.innerText = dm.fields.meaning;
+     // dmBox.append(dmMeaning);
 
 
+     // // add place to box
+
+     // var dmPlace = document.createElement("p");
+     // dmPlace.classList.add("dm_place");
+     // dmPlace.innerText = dm.fields.place;
+     // dmBox.append(dmPlace);
+
+     // add image to box
     var dmImage = document.createElement("img");
     dmImage.classList.add("dm_image");
     dmImage.src = dm.fields.image[0].url;
-    dmImage.setAttribute('data-description', dm.fields.image);
+    // dmImage.setAttribute('data-description', dm.fields.image);
     // document.body.appendChild(dmImage);
     dmBox.append(dmImage);
+
+
 
     var dmGenre = document.createElement("div");
     var dmGenre = dm.fields.genre;
@@ -115,150 +127,164 @@ function showDms() {
 
    circle_One.addEventListener("click", function(){
       if (dmGenre === "emotion_one") {
-        dmImage.src = dm.fields.image[0].url;
-        dmImage.classList.add("dm_image");
-        dmMeaning.classList.add("dm_meaning");
-        dmMeaning.innerText = dm.fields.meaning;
-        dmPlace.classList.add("dm_place");
-        dmPlace.innerText = dm.fields.place;
+        dmBox.style.display = "";
+        // dmImage.src = dm.fields.image[0].url;
+        // dmImage.classList.add("dm_image");
+        // dmMeaning.classList.add("dm_meaning");
+        // dmMeaning.innerText = dm.fields.meaning;
+        // dmPlace.classList.add("dm_place");
+        // dmPlace.innerText = dm.fields.place;
 
-        dmImage.style.display = "inline-block";
-        dmMeaning.style.display = "inline-block";
-        dmPlace.style.display = "inline-block";
-        document.getElementById("box").appendChild(dmGenre);
+        // dmImage.style.display = "inline-block";
+        // dmMeaning.style.display = "inline-block";
+        // dmPlace.style.display = "inline-block";
+        // document.getElementById("box").appendChild(dmGenre);
       }
       else {
-        dmImage.style.display = "none";
-        dmMeaning.style.display = "none";
-        dmPlace.style.display = "none"
+        dmBox.style.display = "none";
+        // dmImage.style.display = "none";
+        // dmMeaning.style.display = "none";
+        // dmPlace.style.display = "none"
       }
     })
 
 
   circle_Two.addEventListener("click", function(){
       if (dmGenre === "emotion_two") {
-        dmImage.src = dm.fields.image[0].url;
-        dmImage.classList.add("dm_image");
-        dmMeaning.classList.add("dm_meaning");
-        dmMeaning.innerText = dm.fields.meaning;
-        dmPlace.classList.add("dm_place");
-     dmPlace.innerText = dm.fields.place;
+         dmBox.style.display = "";
+     //    dmImage.src = dm.fields.image[0].url;
+     //    dmImage.classList.add("dm_image");
+     //    dmMeaning.classList.add("dm_meaning");
+     //    dmMeaning.innerText = dm.fields.meaning;
+     //    dmPlace.classList.add("dm_place");
+     // dmPlace.innerText = dm.fields.place;
 
-        dmImage.style.display = "inline-block";
-        dmMeaning.style.display = "inline-block";
-        dmPlace.style.display = "inline-block";
-        document.getElementById("box").appendChild(dmGenre);
+     //    dmImage.style.display = "inline-block";
+     //    dmMeaning.style.display = "inline-block";
+     //    dmPlace.style.display = "inline-block";
+        // document.getElementById("box").appendChild(dmGenre);
       }
       else {
-        dmImage.style.display = "none";
-        dmMeaning.style.display = "none";
-         dmPlace.style.display = "none"
+             dmBox.style.display = "none";
+        // dmImage.style.display = "none";
+        // dmMeaning.style.display = "none";
+        //  dmPlace.style.display = "none"
       }
     })
 
     circle_Three.addEventListener("click", function(){
       if (dmGenre === "emotion_three") {
-        dmImage.src = dm.fields.image[0].url;
-        dmImage.classList.add("dm_image");
-        dmMeaning.classList.add("dm_meaning");
-        dmMeaning.innerText = dm.fields.meaning;
-        dmPlace.classList.add("dm_place");
-     dmPlace.innerText = dm.fields.place;
+        dmBox.style.display = "";
+     //    dmImage.src = dm.fields.image[0].url;
+     //    dmImage.classList.add("dm_image");
+     //    dmMeaning.classList.add("dm_meaning");
+     //    dmMeaning.innerText = dm.fields.meaning;
+     //    dmPlace.classList.add("dm_place");
+     // dmPlace.innerText = dm.fields.place;
 
-        dmImage.style.display = "inline-block";
-        dmMeaning.style.display = "inline-block";
-        dmPlace.style.display = "inline-block";
+     //    dmImage.style.display = "inline-block";
+     //    dmMeaning.style.display = "inline-block";
+     //    dmPlace.style.display = "inline-block";
 
-        document.getElementById("box").appendChild(dmGenre);
+        // document.getElementById("box").appendChild(dmGenre);
       }
       else {
-        dmImage.style.display = "none";
-        dmMeaning.style.display = "none";
-         dmPlace.style.display = "none"
+         dmBox.style.display = "none";
+        // dmImage.style.display = "none";
+        // dmMeaning.style.display = "none";
+        //  dmPlace.style.display = "none"
       }
     })
 
     circle_Four.addEventListener("click", function(){
       if (dmGenre === "emotion_four") {
-        dmImage.src = dm.fields.image[0].url;
-        dmImage.classList.add("dm_image");
-        dmMeaning.classList.add("dm_meaning");
-        dmMeaning.innerText = dm.fields.meaning;
-        dmPlace.classList.add("dm_place");
-     dmPlace.innerText = dm.fields.place;
+        dmBox.style.display = "";
+     //    dmImage.src = dm.fields.image[0].url;
+     //    dmImage.classList.add("dm_image");
+     //    dmMeaning.classList.add("dm_meaning");
+     //    dmMeaning.innerText = dm.fields.meaning;
+     //    dmPlace.classList.add("dm_place");
+     // dmPlace.innerText = dm.fields.place;
 
-        dmImage.style.display = "inline-block";
-        dmMeaning.style.display = "inline-block";
-        dmPlace.style.display = "inline-block";
-        document.getElementById("box").appendChild(dmGenre);
+     //    dmImage.style.display = "inline-block";
+     //    dmMeaning.style.display = "inline-block";
+     //    dmPlace.style.display = "inline-block";
+     //    document.getElementById("box").appendChild(dmGenre);
       }
       else {
-        dmImage.style.display = "none";
-        dmMeaning.style.display = "none";
-         dmPlace.style.display = "none"
+        dmBox.style.display = "none";
+        // dmImage.style.display = "none";
+        // dmMeaning.style.display = "none";
+        //  dmPlace.style.display = "none"
       }
     })
 
     circle_Five.addEventListener("click", function(){
       if (dmGenre === "emotion_five") {
-        dmImage.src = dm.fields.image[0].url;
-        dmImage.classList.add("dm_image");
-        dmMeaning.classList.add("dm_meaning");
-        dmMeaning.innerText = dm.fields.meaning;
-        dmPlace.classList.add("dm_place");
-     dmPlace.innerText = dm.fields.place;
+        dmBox.style.display = "";
+     //    dmImage.src = dm.fields.image[0].url;
+     //    dmImage.classList.add("dm_image");
+     //    dmMeaning.classList.add("dm_meaning");
+     //    dmMeaning.innerText = dm.fields.meaning;
+     //    dmPlace.classList.add("dm_place");
+     // dmPlace.innerText = dm.fields.place;
 
-        dmImage.style.display = "inline-block";
-        dmMeaning.style.display = "inline-block";
-        dmPlace.style.display = "inline-block";
-        document.getElementById("box").appendChild(dmGenre);
+     //    dmImage.style.display = "inline-block";
+     //    dmMeaning.style.display = "inline-block";
+     //    dmPlace.style.display = "inline-block";
+     //    document.getElementById("box").appendChild(dmGenre);
       }
       else {
-        dmImage.style.display = "none";
-        dmMeaning.style.display = "none";
-         dmPlace.style.display = "none"
+         dmBox.style.display = "none"; 
+        // dmImage.style.display = "none";
+        // dmMeaning.style.display = "none";
+        //  dmPlace.style.display = "none"
       }
     })
 
   circle_Six.addEventListener("click", function(){
       if (dmGenre === "emotion_six") {
-        dmImage.src = dm.fields.image[0].url;
-        dmImage.classList.add("dm_image");
-        dmMeaning.classList.add("dm_meaning");
-        dmMeaning.innerText = dm.fields.meaning;
-        dmPlace.classList.add("dm_place");
-     dmPlace.innerText = dm.fields.place;
+        dmBox.style.display = "";
+     //    dmImage.src = dm.fields.image[0].url;
+     //    dmImage.classList.add("dm_image");
+     //    dmMeaning.classList.add("dm_meaning");
+     //    dmMeaning.innerText = dm.fields.meaning;
+     //    dmPlace.classList.add("dm_place");
+     // dmPlace.innerText = dm.fields.place;
 
-        dmImage.style.display = "inline-block";
-        dmMeaning.style.display = "inline-block";
-        dmPlace.style.display = "inline-block";
-        document.getElementById("box").appendChild(dmGenre);
+     //    dmImage.style.display = "inline-block";
+     //    dmMeaning.style.display = "inline-block";
+     //    dmPlace.style.display = "inline-block";
+     //    document.getElementById("box").appendChild(dmGenre);
       }
       else {
-        dmImage.style.display = "none";
-        dmMeaning.style.display = "none";
-         dmPlace.style.display = "none"
+           dmBox.style.display = "none"; 
+        // dmImage.style.display = "none";
+        // dmMeaning.style.display = "none";
+        //  dmPlace.style.display = "none"
       }
     })
 
 circle_Seven.addEventListener("click", function(){
       if (dmGenre === "others") {
-        dmImage.src = dm.fields.image[0].url;
-        dmImage.classList.add("dm_image");
-        dmMeaning.classList.add("dm_meaning");
-        dmMeaning.innerText = dm.fields.meaning;
-        dmPlace.classList.add("dm_place");
-     dmPlace.innerText = dm.fields.place;
+          dmBox.style.display = "";
+     //    dmImage.src = dm.fields.image[0].url;
+     //    dmImage.classList.add("dm_image");
+     //    dmMeaning.classList.add("dm_meaning");
+     //    dmMeaning.innerText = dm.fields.meaning;
+     //    dmPlace.classList.add("dm_place");
+     // dmPlace.innerText = dm.fields.place;
 
-        dmImage.style.display = "inline-block";
-        dmMeaning.style.display = "inline-block";
-        dmPlace.style.display = "inline-block";
-        document.getElementById("box").appendChild(dmGenre);
+     //    dmImage.style.display = "inline-block";
+     //    dmMeaning.style.display = "inline-block";
+     //    dmPlace.style.display = "inline-block";
+     //    document.getElementById("box").appendChild(dmGenre);
       }
       else {
-        dmImage.style.display = "none";
-        dmMeaning.style.display = "none";
-        dmPlace.style.display = "none";
+         dmBox.style.display = "none"; 
+        // dmImage.style.display = "none";
+        // dmMeaning.style.display = "none";
+        // dmPlace.style.display = "none";
 
       }
     })
@@ -285,18 +311,46 @@ circle_Seven.addEventListener("click", function(){
 
   // });
 }
+// let image = document.querySelector("img");
 
+// image.addEventListener("mouseover", function( event ) {
+  
+//   event.target.style.color = "orange";
+
+
+// };
 
 
 document.addEventListener('mouseover', function(event){
-  if (event.target.tagName == "Img"){
-    var dmImage = event.target.getAttribute('data-description');
-  }console.log('img');
+
+
+  // if (event.target.tagName == "img"){
+  //   var dmImage = event.target.getAttribute('data-description');
+  //   var dmBox = document.createElement("div");
+  //   dmBox.classList.add("dm-box");
+  //   document.getElementById("box").append(dmBox);
+  //   var dmMeaning = document.createElement("p");
+  //    dmMeaning.classList.add("dm_meaning");
+  //    dmMeaning.innerText = dm.fields.meaning;
+  //    dmBox.append(dmMeaning);
+
+
+  //    // add place to box
+
+     var dmPlace = document.createElement("p");
+     dmPlace.classList.add("dm_place");
+    dmPlace.style.display = "none";
+
+  //    dmPlace.innerText = dm.fields.place;
+  //    dmBox.append(dmPlace);
+
+  //   dmMeaning.style.display = "block";
+  // }console.log('img');
+
 })
 
 
 let colorRed = document.querySelector(".circle_one");
-// var filterEm_1 =  document.querySelector(".em_1");
 let colorDark = document.querySelector(".circle_two");
 let colorLight = document.querySelector(".circle_three");
 let colorMedium = document.querySelector(".circle_four");
@@ -307,7 +361,7 @@ let colorOthers = document.querySelector(".circle_seven");
 
 colorRed.addEventListener("click", function(event){
     document.body.style.backgroundColor = "#B40000"; 
-    // dmImage.style.display = "inline-block";
+  
 
 });
 

@@ -4,11 +4,13 @@ body{
 }
 h1{
 	font-family: 'Sanchez', serif;
+	text-align: center;
 }
 
 p{
 	font-size: 20px;
 	font-family: 'Sanchez', serif;
+	text-align: center;
 }
 /*.mothercontainer{
 	display: grid;
@@ -18,21 +20,46 @@ p{
 }
 */
 
+.dm_place:hover{
+	display: block;
+}
 
 .container{
 	padding: 16px;
-	
+	width: 100vw;
+	height: auto;
+
 	/*display: grid;
 	grid-template-columns: 100px auto 200px;*/
 }
 
-.img{
-	width: 70%;
+.dm_image{
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 
 }
+.dm_meaning, .dm_place{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.dm_box{
+	text-align: center;
+}
+/*.img{
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+*/
 .box{
+	/*width: 100vw;
+	height: auto;*/
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr; 
+	column-gap: 15px;
+	
 }
 
 
@@ -40,6 +67,7 @@ p{
 	padding: 10px;
 	margin: auto;
 	height: 200%;
+	text-align: center;
 }
 
 .circle_one{
@@ -96,4 +124,16 @@ p{
 	height: 80px;
 	border-radius: 50%;
 	background-color: #e0b1b9;
+}
+
+
+@media screen and (max-width: 480px){
+	p{
+		font-size: 14px;
+	}
+
+	.circle_one, .circle_two, .circle_three, .circle_four, .circle_five, .circle_six, .circle_seven{
+		width: 40px;
+		height: 40px;
+	}
 }

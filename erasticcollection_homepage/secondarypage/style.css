@@ -2,7 +2,14 @@ body{
 	padding: 16px;
 }
 
+.container{
+	padding: 16px;
+	width: 100vw;
+	height: 100vh;
+}
+
 p{
+	position: absolute;
 	font-size: 250px;
 	font-family: 'Sanchez', serif;
 	text-align: center;
@@ -25,11 +32,11 @@ button{
 	height: 50px;
 	position: absolute;
 	right: 30px;
-	bottom: 500px;
+	bottom: 100px;
 	color: white;
 	border-radius: 100vh;
 	cursor: pointer;
-	background-color: #fca1a1;
+	background-color: #ff0000;
 	border: none;
 }
 /*
@@ -71,6 +78,21 @@ button{
 #word_20, #word_9{
 	color: #e0b1b9;
 }
+
+@media screen and (max-width: 480px){
+	.word{
+		font-size: 30px;
+	}
+	p{
+		font-size: 50px;
+		animation: none;
+	}
+
+	button{
+	width: 50px;
+	height: 25px;
+	}
+	}
 /*.animation{
 	animation-name: move;
 	transform: scale(0.6, 0.6);

@@ -3,7 +3,7 @@
 
  let words = document.querySelectorAll('.word');
  let container = document.querySelector('.container'); 
- let button = document.querySelector('button');
+ let button = document.querySelector('.button_2');
 
 
 
@@ -15,12 +15,12 @@ words.forEach(function (words){
 	words.style.top = (90 * Math.random()) + '%';
 })
 
-button.addEventListener('click', function(event){
-	 console.log(event, event.target);
-	 if(event.target.classList.contains('button')){
-	 	event.target.random();
-	 }
-})
+// button.addEventListener('click', function(event){
+// 	 console.log('click');
+// 	 // if(event.target.classList.contains('button')){
+// 	 // 	event.target.random();
+// 	 // }
+// })
 
   // // place our bubbles randomly
   // words.forEach(function (word) {
