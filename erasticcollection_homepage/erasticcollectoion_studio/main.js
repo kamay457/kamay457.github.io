@@ -79,19 +79,19 @@ function showDms() {
 
 
     
-     // add image to box
-     // var dmMeaning = document.createElement("p");
-     // dmMeaning.classList.add("dm_meaning");
-     // dmMeaning.innerText = dm.fields.meaning;
-     // dmBox.append(dmMeaning);
+     //add image to box
+     var dmMeaning = document.createElement("p");
+     dmMeaning.classList.add("dm_meaning");
+     dmMeaning.innerText = dm.fields.meaning;
+     dmBox.append(dmMeaning);
 
 
-     // // add place to box
+     // add place to box
 
-     // var dmPlace = document.createElement("p");
-     // dmPlace.classList.add("dm_place");
-     // dmPlace.innerText = dm.fields.place;
-     // dmBox.append(dmPlace);
+     var dmPlace = document.createElement("p");
+     dmPlace.classList.add("dm_place");
+     dmPlace.innerText = dm.fields.place;
+     dmBox.append(dmPlace);
 
      // add image to box
     var dmImage = document.createElement("img");
@@ -321,29 +321,55 @@ circle_Seven.addEventListener("click", function(){
 // };
 
 
-document.addEventListener('mouseover', function(event){
-  if (event.target.tagName == "img"){
-    var dmImage = event.target.getAttribute('data-description');
-    var dmBox = document.createElement("div");
-    dmBox.classList.add("dm-box");
-    document.getElementById("box").append(dmBox);
-    var dmMeaning = document.createElement("p");
-     dmMeaning.classList.add("dm_meaning");
-     dmMeaning.innerText = dm.fields.meaning;
-     dmBox.append(dmMeaning);
+// document.addEventListener('mouseover', function(event){
+//   if (event.target.tagName == "IMG"){
+//     var dmImage = event.target.getAttribute('data-description');
+//     var dmBox = document.createElement("div");
+//     dmBox.classList.add("dm-box");
+//     document.getElementById("box").append(dmBox);
+
+//     //add, meaning to box
+
+//     var dmMeaning = document.createElement("p");
+//      dmMeaning.classList.add("dm_meaning");
+//      dmMeaning.innerText = dm.fields.meaning;
+//      dmBox.append(dmMeaning);
 
 
-     // add place to box
+//      // add place to box
 
-     var dmPlace = document.createElement("p");
-     dmPlace.classList.add("dm_place");
-     dmPlace.innerText = dm.fields.place;
-     dmBox.append(dmPlace);
+//      var dmPlace = document.createElement("p");
+//      dmPlace.classList.add("dm_place");
+//      dmPlace.innerText = dm.fields.place;
+//      dmBox.append(dmPlace);
 
-    dmMeaning.style.display = "block";
-  }console.log('img');
+//     dmMeaning.style.display = "block";
+//   }console.log('img');
 
-})
+// })
+// document.addEventListener('mouseover', function(event){
+// if (event.target.tagName === "IMG") {
+//   var currentDm = dms[Array.from(event.target.parentNode.parentNode.children).indexOf(event.target.parentNode)];
+
+//   var dmImage = event.target.getAttribute('data-description');
+//   var dmBox = document.createElement("div");
+//   dmBox.classList.add("dm-box");
+//   document.getElementById("box").append(dmBox);
+//   var dmMeaning = document.createElement("p");
+//   dmMeaning.classList.add("dm_meaning");
+//   dmMeaning.innerText = currentDm.fields.meaning;
+//   dmBox.append(dmMeaning); 
+
+
+//   // add place to box
+
+//   var dmPlace = document.createElement("p");
+//   dmPlace.classList.add("dm_place");
+//   dmPlace.innerText = currentDm.fields.place;
+//   dmBox.append(dmPlace);
+// }
+  
+// })
 
 
 let colorRed = document.querySelector(".circle_one");
@@ -356,23 +382,21 @@ let colorOthers = document.querySelector(".circle_seven");
 
 
 colorRed.addEventListener("click", function(event){
-    document.body.style.backgroundColor = "#B40000"; 
-  
-
+    document.body.style.backgroundColor = "#ff0000"; 
 });
 
 colorDark.addEventListener("click", function(event){
-    document.body.style.backgroundColor = '#eb2a51'; 
+    document.body.style.backgroundColor = '#db2a27'; 
 });
 
 colorLight.addEventListener("click", function(event){
-    document.body.style.backgroundColor = '#db3327'; 
+    document.body.style.backgroundColor = '#ff2f00'; 
 });
 colorMedium.addEventListener("click", function(event){
     document.body.style.backgroundColor = '#801a18'; 
 });
 colorWhite.addEventListener("click", function(event){
-    document.body.style.backgroundColor = '#db2a27'; 
+    document.body.style.backgroundColor = '#ff7885'; 
 });
 colorOrange.addEventListener("click", function(event){
     document.body.style.backgroundColor = '#7d4545'; 

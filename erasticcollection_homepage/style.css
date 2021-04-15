@@ -1,24 +1,38 @@
-/*html{
+
+body{
 	height: 100%;
 	width: 100%;
+	/*background: linear-gradient(-45deg, #db0000, #c74242, #9c2727, #a35858);
+	animation: gradient 15s ease infinite;*/
+}
 
+/*@keyframes gradient{
+  0%{
+    background-position: 0% 50%;
+  }
+
+  50%{
+    background-position: 100% 50%;
+  }
+
+  100%{
+    background-position: 0% 50%;
+  }
 }*/
-/*body{
-	position: relative;
-	height: 100vh;
-	width: 100vw;
-	
-}*/
+
 
 h1{
 	font-family: 'Sanchez', serif;
-	position: absolute;
-	width: 1180px;
-	height: 128px;
-	left: 373px;
-	top: 772px;
+	position: relative;
+	/*width: 1180px;*/
+	text-align: right;
+	text-decoration: none;
+	/*height: 128px;*/
+	/*left: 373px;*/
+	top: 700px;
 	cursor: pointer;
 }
+
 .container{
 	position: relative;
 	width: 1200px;
@@ -54,7 +68,6 @@ a:hover{
 .line{
 	position: absolute;
 	width: 1434.04px;
-	height: 0px;
 	left: 0px;
 	top: 256px;
 	border: 5px solid #CA1F34;
@@ -435,4 +448,25 @@ a:hover{
 	100%{
 		transform: translate(50px 50px);
 	}
+}
+
+@media screen and (max-width: 480px){
+	body{
+		width: 100%;
+		height: 100%;
+	}
+	p{
+		font-size: 14px;
+	}
+
+	.container{
+	position: relative;
+	width: 375px;
+	height: 812px;
+}
+
+	.line1, .line2, .line3, .line4, .line5, .line6, .line7, .line8, .line9, .line10, .line11, .line12, .line13, .line14, .line15, .line16, .line17, .line18, .line19, .line20{
+		animation: none;
+	}
+	
 }

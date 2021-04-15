@@ -7,11 +7,13 @@ h1{
 	text-align: center;
 }
 
-p{
+/*p{
 	font-size: 20px;
 	font-family: 'Sanchez', serif;
 	text-align: center;
 }
+
+*/
 /*.mothercontainer{
 	display: grid;
 	min-height: 100vh;
@@ -20,8 +22,14 @@ p{
 }
 */
 
-.dm_place:hover{
-	display: block;
+.dm_place{
+	font-size: 16px;
+	font-family: 'Sanchez', serif;
+
+}
+
+.dm_meaning{
+	font-size: 26px;
 }
 
 .container{
@@ -40,10 +48,18 @@ p{
 	margin-right: auto;
 
 }
+
+.dm_image:hover{
+	transform: scale(1.5, 1.5);
+}
+
 .dm_meaning, .dm_place{
+	font-family: 'Sanchez', serif;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	text-align: center;
 }
+
 .dm_box{
 	text-align: center;
 }
@@ -65,39 +81,67 @@ p{
 
 .filter{
 	padding: 10px;
-	margin: auto;
+	margin: 18px;
 	height: 200%;
 	text-align: center;
 }
+
+
+/*span{
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Sanchez', serif;
+	text-align: center;
+	font-size: 8px;
+
+
+}*/
+
 
 .circle_one{
 	display: inline-block;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
-	background-color: #B40000;
+	font-family: 'Sanchez', serif;
+	text-align: center;
+	line-height: 80px;
+	background-color: #ff0000;
+
 }
 
 .circle_two{
 	display: inline-block;
 	width: 80px;
 	height: 80px;
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 80px;
 	border-radius: 50%;
-	background-color: #eb2a51;
+	background-color: #db2a27;
 }
 
 .circle_three{
 	display: inline-block;
 	width: 80px;
 	height: 80px;
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 80px;
 	border-radius: 50%;
-	background-color: #db3327;
+	background-color: #ff2f00;
 }
 
 .circle_four{
 	display: inline-block;
 	width: 80px;
 	height: 80px;
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 80px;
 	border-radius: 50%;
 	background-color: #801a18;
 }
@@ -106,14 +150,22 @@ p{
 	display: inline-block;
 	width: 80px;
 	height: 80px;
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 80px;
 	border-radius: 50%;
-	background-color: #db2a27;
+	background-color: #ff7885;
 }
 
 .circle_six{
 	display: inline-block;
 	width: 80px;
 	height: 80px;
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 80px;
 	border-radius: 50%;
 	background-color: #7d4545;
 }
@@ -122,6 +174,10 @@ p{
 	display: inline-block;
 	width: 80px;
 	height: 80px;
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 80px;
 	border-radius: 50%;
 	background-color: #e0b1b9;
 }
@@ -135,5 +191,6 @@ p{
 	.circle_one, .circle_two, .circle_three, .circle_four, .circle_five, .circle_six, .circle_seven{
 		width: 40px;
 		height: 40px;
+		font-size: 7px;
 	}
 }
