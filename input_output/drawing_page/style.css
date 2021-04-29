@@ -1,0 +1,54 @@
+body{
+	padding: 16px;
+}
+
+
+h1{
+	font-family: 'Barrio', cursive;
+	background-color: #b4c1d1;
+}
+
+div{
+	border: 1px solid;
+
+}
+
+.color_One, .color_Two, .color_Three, .clear{
+	border: none;
+	cursor: pointer;
+}
+
+#delete{
+	margin: 50px; 
+	text-align: right;
+}
+.grid-container{
+	border: 1px solid;
+	margin: auto;
+	display: grid;
+	width: 800px;
+    height: 800px;
+	grid-template-columns: repeat(24, 1fr); 
+	grid-template-rows: repeat(24, 1fr); 
+}
+
+.button-container{
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#back, #save, #forward{
+	margin: 20px;
+}
+
+/*#back{
+	width: 0;
+	height: 0;
+	border-top: solid 15px transparent;
+	border-right: solid 15px #697b91;
+	border-bottom: solid 15px transparent;
+	border-left: solid 15px transparent;
+
+}*/
