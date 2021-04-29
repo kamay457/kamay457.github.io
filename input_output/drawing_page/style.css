@@ -1,11 +1,12 @@
 body{
 	padding: 16px;
+	border: 3px solid black;
 }
 
 
 h1{
 	font-family: 'Barrio', cursive;
-	background-color: #b4c1d1;
+	background-color: #dbedf0;
 }
 
 div{
@@ -19,11 +20,22 @@ div{
 }
 
 #delete{
-	margin: 50px; 
-	text-align: right;
+	/*margin: 50px; */
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Barrio', cursive;
+	font-size: 30px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	background: #dbedf0;
+
 }
+
 .grid-container{
 	border: 1px solid;
+	/*margin-top: 20px;
+	margin-bottom: 20px; */
 	margin: auto;
 	display: grid;
 	width: 800px;
@@ -41,6 +53,11 @@ div{
 
 #back, #save, #forward{
 	margin: 20px;
+	font-family: 'Barrio', cursive;
+	border-radius: 3px;
+	background: #dbedf0;
+	font-size: 25px;
+
 }
 
 /*#back{

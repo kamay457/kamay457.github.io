@@ -3,6 +3,8 @@ console.log('hello');
 let container = document.querySelector(".grid-container");
 let reDrawing = false;
 let deleteDrawing = document.querySelector('#delete');
+// const colorImput = document.getElementsByClassName("prototype_colorpicker") [0];
+
 
 
 
@@ -12,6 +14,10 @@ let color_Two = document.querySelector(".color_Two");
 let color_Three = document.querySelector(".color_Three");
 
 
+// let color = colorInput.value;
+// colorInput.addEventListener("change", function(e){
+// 	color = e.target.value;
+// });
 
 
 for (let i = 0; i < 24 * 24; i ++){
@@ -20,6 +26,8 @@ for (let i = 0; i < 24 * 24; i ++){
 
 	newDiv.addEventListener('mousedown', function(){
 		reDrawing = true;
+
+
 		newDiv.style.background = '';
 	})
 
