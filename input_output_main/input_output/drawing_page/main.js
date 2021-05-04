@@ -1,5 +1,7 @@
 console.log('hello');
 
+
+let currentcolor = "pink";
 let container = document.querySelector(".grid-container");
 let reDrawing = false;
 let deleteDrawing = document.querySelector('#delete');
@@ -27,22 +29,32 @@ for (let i = 0; i < 24 * 24; i ++){
 	newDiv.addEventListener('mousedown', function(){
 		reDrawing = true;
 
+		// if(color_One){
+		//  newDiv.style.background = "pink"; 
+		// }else if (color_Two) {
+		// 	newDiv.style.background = "red";
+		// }
 
-		newDiv.style.background = '';
+		// if(color_Two){
+		// 	newDiv.style.background = "red"; 
+		// }else{
+		// 	newDiv.style.background = "none"
+		// }
+		newDiv.style.background = currentcolor;
 	})
 
 	color_One.addEventListener("click", function(event){
-        newDiv.style.background = "pink"; 
+        currentcolor = "pink"; 
      
     })
 
     color_Two.addEventListener("click", function(event){
-        newDiv.style.background = "red"; 
+        currentcolor= "red"; 
      
     })
 
     color_Three.addEventListener("click", function(event){
-        newDiv.style.background = "yellow"; 
+       	currentcolor = "yellow"; 
      
     })
 

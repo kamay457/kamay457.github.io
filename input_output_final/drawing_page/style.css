@@ -1,0 +1,276 @@
+/*@font-face{
+	font-family: terminal-grotesque;
+	src: url("./font/terminal-grotesque-webfont.woff") format("woff");
+	src: url("./font/terminal-grotesque-webfont.woff2") format("woff2");
+}
+*/
+/*@font-face{
+	font-family: 'VTF MisterPixel Regular';
+	src: url("../font/mister_pixel_regular-webfont.woff") format("woff"),
+		 url("../font/mister_pixel_regular-webfont.woff2") format("woff2");
+}*/
+
+/*@font-face{
+	font-family: SILKSCREEN;
+	src: url("./font/slkscrb-webfont.woff") format("woff");
+}*/
+@font-face {
+    font-family:'VTF MisterPixel';
+    src: url('VTFMisterPixel.eot');
+	src: url('VTFMisterPixel.eot?#iefix') format('embedded-opentype'),
+		url('VTFMisterPixel.woff2') format('woff2'),
+		url('VTFMisterPixel.woff') format('woff'),
+		url('VTFMisterPixel.svg#VTFMisterPixel') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+body{
+	padding: 16px;
+	border: 10px solid black;
+}
+
+
+h1{
+	font-family: 'VTF MisterPixel';
+	font-size: 60px;
+	background-color: #e8f6ff;
+}
+
+div{
+	border: 1px solid;
+
+}
+
+.color_One, .color_Two, .color_Three, .color_Four, .color_Five, .color_Six, .color_Seven, .color_Eight, .color_Nine, .color_Ten, .color_Eleven
+,.color_Twelve, .color_Thirteen, .color_Fourteen, .color_Fifteen, .color_Sixteen, .color_Seventeen, .color_Eighteen, .color_Nineteen
+,.color_Twenty, .color_TwentyOne, .color_TwentyTwo, .color_TwentyThree, .color_TwentyFour.clear{
+	border: none;
+	cursor: pointer;
+}
+
+#delete{
+	/*margin: 50px; */
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-family: 'VTF MisterPixel';
+	font-size: 20px;
+	margin: 20px;
+	border-radius: 3px;
+	background: #dbedf0;
+
+
+}
+
+.grid-container{
+	border: 1px solid;
+	/*margin-top: 20px;
+	margin-bottom: 20px; */
+	margin: auto;
+	display: grid;
+	width: 800px;
+    height: 800px;
+	grid-template-columns: repeat(24, 1fr); 
+	grid-template-rows: repeat(24, 1fr); 
+}
+
+.button-container{
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#back, #save, #submit{
+	margin: 20px;
+	font-family: 'VTF MisterPixel';
+	border-radius: 3px;
+	background: #dbedf0;
+	font-size: 25px;
+
+}
+
+.flex-container{
+	margin: auto;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	/*justify-content: spa;*/
+	width: 55vw;
+  	height: 50vh;
+  	border: none;
+  	background-color: #e8f6ff;
+
+}
+
+.color_One{
+	/*position: relative;*/
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	margin: 20px;
+}
+
+.color_Two{
+	/*position: relative;*/
+	width: 50px;
+	height: 50px;
+	background-color: #ff00f2;
+	margin: 20px;
+}
+
+.color_Three{
+	/*position: relative;*/
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	margin: 20px;
+}
+
+.color_Four{
+	width: 50px;
+	height: 50px;
+	background-color: orange;
+	margin: 20px;
+}
+.color_Five{
+	width: 50px;
+	height: 50px;
+	background-color: #1900ff;
+	margin: 20px;
+}
+
+.color_Six{
+	width: 50px;
+	height: 50px;
+	background-color: #00ff08;
+	margin: 20px;
+}
+
+.color_Seven{
+	width: 50px;
+	height: 50px;
+	background-color: #a200ff;
+	margin: 20px;
+}
+
+.color_Eight{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	margin: 20px;
+}
+
+.color_Nine{
+	width: 50px;
+	height: 50px;
+	background-color: #ff9d96;
+	margin: 20px;
+}
+
+.color_Ten{
+	width: 50px;
+	height: 50px;
+	background-color: #ff8af9;
+	margin: 20px;
+}
+.color_Eleven{
+	width: 50px;
+	height: 50px;
+	background-color: #fbff8a;
+	margin: 20px;
+}
+.color_Twelve{
+	width: 50px;
+	height: 50px;
+	background-color: #ffe68a;
+	margin: 20px;
+}
+
+.color_Thirteen{
+	width: 50px;
+	height: 50px;
+	background-color: #9cbeff ;
+	margin: 20px;
+}
+.color_Fourteen{
+	width: 50px;
+	height: 50px;
+	background-color: #9cff9f;
+	margin: 20px;
+}
+.color_Fifteen{
+	width: 50px;
+	height: 50px;
+	background-color: #d7a3ff;
+	margin: 20px;
+}
+.color_Sixteen{
+	width: 50px;
+	height: 50px;
+	background-color: #bdbdbd;
+	margin: 20px;
+}
+.color_Seventeen{
+	width: 50px;
+	height: 50px;
+	background-color: #780000;
+	margin: 20px;
+}
+.color_Eighteen{
+	width: 50px;
+	height: 50px;
+	background-color: #91006f;
+	margin: 20px;
+}
+.color_Nineteen{
+	width: 50px;
+	height: 50px;
+	background-color: #878a00 ;
+	margin: 20px;
+}
+
+.color_Twenty{
+	width: 50px;
+	height: 50px;
+	background-color: #6b5400;
+	margin: 20px;
+}
+.color_TwentyOne{
+	width: 50px;
+	height: 50px;
+	background-color: #080052;
+	margin: 20px;
+}
+.color_TwentyTwo{
+	width: 50px;
+	height: 50px;
+	background-color: #026905;
+	margin: 20px;
+}
+.color_TwentyThree{
+	width: 50px;
+	height: 50px;
+	background-color: #3f0070;
+	margin: 20px;
+}
+
+.color_TwentyFour{
+	width: 50px;
+	height: 50px;
+	background-color: #FFFFFF;
+	margin: 20px;
+}
+/*#back{
+	width: 0;
+	height: 0;
+	border-top: solid 15px transparent;
+	border-right: solid 15px #697b91;
+	border-bottom: solid 15px transparent;
+	border-left: solid 15px transparent;
+
+}*/
