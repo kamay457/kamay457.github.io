@@ -29,7 +29,7 @@
 
 body{
 	padding: 16px;
-	border: 10px solid black;
+	border: 20px solid black;
 }
 
 
@@ -39,10 +39,39 @@ h1{
 	background-color: #e8f6ff;
 }
 
+/*.move{
+	animation :leftToright 20s linear;	
+	animation-fill-mode: forwards;
+	animation-direction: alternate;	
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;	
+	transform: translateX(-100%);
+	border: none;
+}
+
+@keyframes leftToright {
+
+	
+100% {
+		transform: translateX(100%);
+	}
+}
+*/
 a{
 	font-family: 'VTF MisterPixel';
+	font-size: 20px;
 	text-decoration: none;
 }
+
+a:visited{
+	color: #1a87c7;
+}
+
+a:hover{
+	color: #64d40f;
+}
+
 div{
 	border: 1.5px solid;
 
@@ -62,7 +91,7 @@ div{
 	text-align: center;
 	font-family: 'VTF MisterPixel';
 	font-size: 20px;
-	margin: 20px;
+	margin: 10px;
 	border-radius: 3px;
 	background: #dbedf0;
 
@@ -77,18 +106,18 @@ div{
 	display: grid;
 	width: 800px;
     height: 800px;
-	grid-template-columns: repeat(24, 1fr); 
-	grid-template-rows: repeat(24, 1fr); 
+	grid-template-columns: repeat(36, 1fr); 
+	grid-template-rows: repeat(36, 1fr); 
 }
 
 .button-container{
 	border: none;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
-#back, #save, #submit{
+#save, #submit{
 	margin: 20px;
 	font-family: 'VTF MisterPixel';
 	border-radius: 3px;
@@ -105,7 +134,7 @@ div{
 	text-align: center;
 	/*justify-content: spa;*/
 	width: 40vw;
-  	height: 35vh;
+  	height: 30vh;
   	border: none;
   	background-color: #e8f6ff;
 
@@ -281,34 +310,7 @@ div{
 	border: none;
 }
 
-.loading-wrap {
-  position: fixed;
-  height:100vh;
-  width:100vw;
-  background-color:#555;
-  left: 0px;
-  top: 0px;
- /* z-index: 9999;*/
-  width: 100%;
-  height: 100%;
-}
-.loading-anime {
-  animation-name: loadinganime;
-  animation-timing-function:ease;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-@keyframes loadinganime {
-  from {
-    transform: translateX(0);
-  }
-  30%, 70% {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(100%);
-  }
-}
+
 /*#back{
 	width: 0;
 	height: 0;

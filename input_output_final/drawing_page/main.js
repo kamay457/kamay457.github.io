@@ -33,7 +33,7 @@ const color_TwentyFour = document.querySelector(".color_TwentyFour");
 // colorInput.addEventListener("change", function(e){
 // 	color = e.target.value;
 // });
-for (let i = 0; i < 24 * 24; i++) {
+for (let i = 0; i < 36 * 36; i++) {
 	const newDiv = document.createElement('div');
 	newDiv.classList.add('pixel');
 	newDiv.addEventListener('mousedown', function() {
