@@ -310,7 +310,67 @@ div{
 	border: none;
 }
 
+@media screen and (max-width: 750px){
 
+body{
+	
+	border: 10px solid black;
+}
+
+h1{
+	font-family: 'VTF MisterPixel';
+	font-size: 30px;
+	background-color: #e8f6ff;
+}
+
+a{
+	font-family: 'VTF MisterPixel';
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#delete{
+	/*margin: 50px; */
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	font-family: 'VTF MisterPixel';
+	font-size: 16px;
+	margin: 10px;
+	border-radius: 3px;
+	background: #dbedf0;
+
+
+}
+
+.grid-container{
+	border: 1.5px solid;
+	/*margin-top: 20px;
+	margin-bottom: 20px; */
+	margin: auto;
+	display: grid;
+	width: 600px;
+    height: 600px;
+	grid-template-columns: repeat(36, 1fr); 
+	grid-template-rows: repeat(36, 1fr); 
+}
+
+.flex-container{
+	margin: auto;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	/*justify-content: spa;*/
+	width: 20vw;
+  	height: 15vh;
+  	border: none;
+  	background-color: #e8f6ff;
+
+}
+
+
+}
 /*#back{
 	width: 0;
 	height: 0;

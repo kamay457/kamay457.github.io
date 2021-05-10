@@ -72,17 +72,17 @@ a:hover{
 	top: 256px;
 	border: 5px solid #CA1F34;
 	transform: rotate(-10.28deg);
-	animation: line1 7s linear infinite alternate;
+	
 }
 
-@keyframes line1{
+/*@keyframes line1{
 	0%{
 		transform: translate(-80px, -80px);
 	}
 	100%{
 		transform: translate(80px 80px);
 	}
-}
+}*/
 
 .line2{
 	
@@ -92,19 +92,19 @@ a:hover{
 	left: 600px;
 	border: 5px solid #850211;
 	transform: rotateZ(45deg);
-	animation: line1 5s linear infinite alternate;
+	
 
 }
 
 
-@keyframes line2{
+/*@keyframes line2{
 	0%{
 		transform: translate(-10px, -10px);
 	}
 	100%{
 		transform: translate(80px 80px);
 	}
-}
+}*/
 
 .line3{
 	display: block;
@@ -115,20 +115,19 @@ a:hover{
 	top: 0px;
 	border: 5px solid #FEBCC4;
 	transform: rotateZ(6.94deg);
-	animation: line3 6s linear infinite alternate;
-
+	
 
 }
 
 
-@keyframes line3{
+/*@keyframes line3{
 	0%{
 		transform: translate(10px, 10px);
 	}
 	100%{
 		transform: translate(780px 780px);
 	}
-}
+}*/
 
 .line4{
 	display: block;
@@ -139,17 +138,17 @@ a:hover{
 	top: 500px;
 	border: 5px solid #F9A0AA;
 	transform: rotateZ(-39.36deg);
-	animation:line4 7s linear infinite alternate;
+	
 }
 
-@keyframes line4{
+/*@keyframes line4{
 	0%{
 		transform: translate(0px, 0px);
 	}
 	100%{
 		transform: translate(500px 500px);
 	}
-}
+}*/
 
 .line5{
 	
@@ -158,18 +157,18 @@ a:hover{
 	left: 0px;
 	border: 5px solid #CA1F34;
 	transform: rotateZ(19.9deg);
-	animation:line5 4s linear infinite alternate;
+	
 
 }
 
-@keyframes line5{
+/*@keyframes line5{
 	0%{
 		transform: translate(-20px, -20px);
 	}
 	100%{
 		transform: translate(60px 60px);
 	}
-}
+}*/
 
 .line6{
 	display: block;
@@ -179,17 +178,16 @@ a:hover{
 	top: 575px;
 	border: 5px solid #CA1F34;
 	transform: rotateZ(-37.59deg);
-	animation:line6 6s linear infinite alternate;
 }
 
-@keyframes line6{
+/*@keyframes line6{
 	0%{
 		transform: translate(100px, 100px);
 	}
 	100%{
 		transform: translate(-30px -30px);
 	}
-}
+}*/
 
 
 .line7{
@@ -199,16 +197,16 @@ a:hover{
 	left: 400px;
 	border: 5px solid #F22D45;
 	transform: rotateZ(63.08deg);
-	animation:line7 5s linear infinite alternate;
+	
 }
-@keyframes line7{
+/*@keyframes line7{
 	0%{
 		transform: translate(65px, 65px);
 	}
 	100%{
 		transform: translate(-50px -50px);
 	}
-}
+}*/
 .line8{
 	display: block;
 	position: absolute;
@@ -217,34 +215,34 @@ a:hover{
 	top: 600px;
 	border: 5px solid #CA1F34;
 	transform: rotate(22.94deg);
-	animation:line8 4s linear infinite alternate;
+	
 }
-@keyframes line8{
+/*@keyframes line8{
 	0%{
 		transform: translate(25px, 25px);
 	}
 	100%{
 		transform: translate(-50px -50px);
 	}
-}
+}*/
 .line9{
 	position: absolute;
 	width: 1334.64px;
 	left: -500px;
 	border: 5px solid #820413;
 	transform: rotate(81.78deg);
-	animation:line9 6s linear infinite alternate;
+	
 
 }
 
-@keyframes line9{
+/*@keyframes line9{
 	0%{
 		transform: translate(-90px, -90px);
 	}
 	100%{
 		transform: translate(30px 30px);
 	}
-}
+}*/
 .line10{
 	position: absolute;
 	width: 1444.66px;
@@ -252,10 +250,10 @@ a:hover{
 	top: 485px;
 	border: 5px solid #CA1F34;
 	transform: rotate(-4.61deg);
-	animation:line10 5s linear infinite alternate;
+
 }
 
-@keyframes line10{
+/*@keyframes line10{
 	0%{
 		transform: translate(-4px, -4px);
 	}
@@ -263,7 +261,7 @@ a:hover{
 		transform: translate(30px 30px);
 	}
 }
-
+*/
 .line11{
 	position: absolute;
 	width: 1951.76px;
@@ -271,17 +269,17 @@ a:hover{
 	top: 0px;
 	border: 5px solid #FFB5B5;
 	transform: rotate(34.19deg);
-	animation:line11 6s linear infinite alternate;
+
 }
 
-@keyframes line11{
+/*@keyframes line11{
 	0%{
 		transform: translate(34px, 34px);
 	}
 	100%{
 		transform: translate(-100px -100px);
 	}
-}
+}*/
 
 .line12{
 	position: absolute;
@@ -289,11 +287,11 @@ a:hover{
 	top: 200px;
 	border: 5px solid #F13232;
 	transform: rotate(34.4deg);
-	animation:line12 5s linear infinite alternate;
+
 
 }
 
-@keyframes line12{
+/*@keyframes line12{
 	0%{
 		transform: translate(34px, 34px);
 	}
@@ -301,7 +299,7 @@ a:hover{
 		transform: translate(200px 200px);
 	}
 }
-
+*/
 
 .line13{
 	position: absolute;
@@ -310,17 +308,17 @@ a:hover{
 	top: 450px;
 	border: 5px solid #850505;
 	transform: rotate(-21.05deg);
-	animation:line13 7s linear infinite alternate;
+
 }
 
-@keyframes line13{
+/*@keyframes line13{
 	0%{
 		transform: translate(-21px, -21px);
 	}
 	100%{
 		transform: translate(200px 200px);
 	}
-}
+}*/
 .line14{
 	position: absolute;
 	width: 1400.71px;
@@ -328,17 +326,17 @@ a:hover{
 	top: 23px;
 	border: 5px solid #BC6D6D;
 	transform: rotate(84.08deg);
-	animation:line14 6s linear infinite alternate;
+
 }
 
-@keyframes line14{
+/*@keyframes line14{
 	0%{
 		transform: translate(84px, 84px);
 	}
 	100%{
 		transform: translate(-100px -100px);
 	}
-}
+}*/
 .line15{
 	position: absolute;
 	width: 1990.92px;
@@ -346,34 +344,34 @@ a:hover{
 	top: 0px;
 	border: 5px solid #CA1F34;
 	transform: rotate(109.51deg);
-	animation:line15 5s linear infinite alternate;
+
 }
 
-@keyframes line15{
+/*@keyframes line15{
 	0%{
 		transform: translate(110px, 110px);
 	}
 	100%{
 		transform: translate(100px 100px);
 	}
-}
+}*/
 .line16{
 	position: absolute;
 	width: 1990.92px;
 	left: -500px;
 	border: 5px solid #CA1F34;
 	transform: rotate(109.51deg);
-	animation:line16 6s linear infinite alternate;
+	
 }
 
-@keyframes line16{
+/*@keyframes line16{
 	0%{
 		transform: translate(110px, 110px);
 	}
 	100%{
 		transform: translate(-200px -200px);
 	}
-}
+}*/
 
 .line17{
 	position: absolute;
@@ -382,10 +380,10 @@ a:hover{
 	top: 221px;
 	border: 5px solid #D1808A;
 	transform: rotate(10.06deg);
-	animation:line17 5s linear infinite alternate;
+	
 }
 
-@keyframes line17{
+/*@keyframes line17{
 	0%{
 		transform: translate(-10px, -10px);
 	}
@@ -393,7 +391,7 @@ a:hover{
 		transform: translate(100px 100px);
 	}
 }
-
+*/
 .line18{
 	position: absolute;
 	width: 1466.4px;
@@ -401,17 +399,17 @@ a:hover{
 	top: 477px;
 	border: 5px solid #EA0E0E;
 	transform: rotate(10.89deg);
-	animation:line18 4s linear infinite alternate;
+	
 }
 
-@keyframes line18{
+/*@keyframes line18{
 	0%{
 		transform: translate(10px, 10px);
 	}
 	100%{
 		transform: translate(-300px -300px);
 	}
-}
+}*/
 .line19{
 	position: absolute;
 	width: 1439.41px;
@@ -419,17 +417,17 @@ a:hover{
 	top: 300px;
 	border: 5px solid #A31717;
 	transform: rotate(50.48deg);
-	animation:line19 6s linear infinite alternate;
+	
 }
 
-@keyframes line19{
+/*@keyframes line19{
 	0%{
 		transform: translate(50px, 50px);
 	}
 	100%{
 		transform: translate(-50px -50px);
 	}
-}
+}*/
 
 .line20{
 	position: absolute;
@@ -438,17 +436,17 @@ a:hover{
 	top: 100px;
 	border: 5px solid #F1380F;
 	transform: rotate(48.78deg);
-	animation:line20 5s linear infinite alternate;	
+	
 }
 
-@keyframes line20{
+/*@keyframes line20{
 	0%{
 		transform: translate(-50px, -50px);
 	}
 	100%{
 		transform: translate(50px 50px);
 	}
-}
+}*/
 
 @media screen and (max-width: 480px){
 	body{
