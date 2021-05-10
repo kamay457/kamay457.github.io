@@ -1,26 +1,29 @@
 let myname = 'yukakamata';
 console.log(myname);
 
+let favoriteNumber = 2+4+8;
+console.log(favoriteNumber);
 
-console.log(3 *8)
+let myNumber = 'one';
+console.log(myNumber);
 
-let myNumber = '3';
-console.log(myNumber)
+let human = true;
+console.log(human);
 
-// let myname = true;
+let Name = ['y', 'u', 'k', 'a'];
+console.log(Name);
 
-let Name = ['y', 'u', 'k', 'a']
-console.log(Name)
-
-let data = ['toystory', 2 +1, true]
-console.log(data)
-
-
-data.push('yuka', 'kamata');
-console.log(data)
+let data = ['toystory', 2 +1, true];
+console.log(data);
 
 
-console.log([44 + 7 * 8])
+let name_One = 'Yuka';
+let name_Two = 'Kamata';
+console.log(name_One,name_Two);
+
+
+let newNumber = 44 + 7 * 8;
+console.log(newNumber);
 
 
 let my_things = ['y', 'u', 'k', 'a']
@@ -28,7 +31,7 @@ console.log(my_things[0]);
 console.log(my_things.length);
 
 
-let number_three = ['s', 'u', 'p', 'r', 'c', 'a', 'l', 'i', 'f', 'r', 'a', 'g', 'i', 'l', 'i', 's', 't', 'i', 'c', 'e', 'x', 'p', 'i', 'a', 'l', 'i', 'd', 'o', 'c', 'i', 'o', 'u', 's'];
+let number_three = 'supercalifragilisticexpialidocious';
 console.log(number_three.length);
 
 
